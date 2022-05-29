@@ -5,7 +5,7 @@
                 <p>Trusted by <span>14,000+</span> happy customers and experts</p>  
             </div>
             <div class="trust-element col-lg-7 my-3">
-                <img src="./src/assets/media/Image-2.png" alt="">
+                <img src="./assets/media/Image-2.png" alt="">
             </div>
         </div> 
     </div>
@@ -18,7 +18,7 @@
                     <div class="foot-description-block">
                         <h3>LOGO</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus molestias recusandae esse harum reiciendis earum quas sint, totam.</p>
-                        <img src="src/assets/media/dmca-img.png" alt="dmca">
+                        <img src="./assets/media/dmca-img.png" alt="dmca">
                     </div>
                 </div>
                 <div class="col-md-8 px-0">
@@ -43,8 +43,8 @@
                             <div class="flags-block">
                                 <h6 class="title">Local Sites:</h6>
                                 <ul class="list-unstyled m-0 d-flex flex-wrap">
-                                    <li><img src="../../assets/media/canada-flag.png" alt="flag"></li>
-                                    <li><img src="../../assets/media/uk-flag.png" alt="flag"></li>                                    
+                                    <li><img src="./assets/media/canada-flag.png" alt="flag"></li>
+                                    <li><img src="./assets/media/uk-flag.png" alt="flag"></li>                                    
                                 </ul>
                             </div>
                         </div>
@@ -74,5 +74,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script type="text/javascript" src="./src/js/index.js"></script>
 </body>
 </html>

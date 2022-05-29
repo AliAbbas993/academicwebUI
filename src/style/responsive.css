@@ -41,6 +41,9 @@
         padding: 10px;
         margin: 0;
     }
+    .banner-form-sec .price-calculator{
+        margin-bottom: 50px;
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -50,5 +53,13 @@
     }
     .top-header .contact-info ul li{
         margin: 5px 20px!important;
+    }
+    .paper-tab-sec .tabs-block .tabs-btn-block{
+        position: relative;
+        min-width: 100%!important;
+        max-width: 100%!important;
+    }
+    .paper-tab-sec .tabs-block .tabs-content-block{
+        padding-left: 15px;
     }
 }
