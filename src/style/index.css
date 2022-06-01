@@ -2,6 +2,7 @@
     --primary-blue: #2087f1;
     --primary-yellow: #f1ce20;
     --primary-grey: #3d3d3d;
+    --primary-blue-light: #c0e0ffb9;
 }
 
 *{
@@ -232,18 +233,26 @@ footer .main-footer .foot-links-block .follow-links li a span:hover i{
 .banner-form-sec .banner-content-block p span{
     color: var(--primary-yellow);
 }
-.btn-block button{
+.btn-block button.btn-white{
     border-radius: 30px;
-    border: none;
     padding: 10px 30px;
     text-transform: uppercase;
-}
-.btn-block button.btn-white{
     background: #ffffff;
     color: var(--primary-blue);
     border: 2px solid #ffffff;
 }
+.btn-block button.btn-light-blue{
+    border-radius: 30px;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    background: var(--primary-blue-light);
+    color: var(--primary-blue);
+    border: 2px solid var(--primary-blue-light);
+}
 .btn-block button.btn-light{
+    border-radius: 30px;
+    padding: 10px 30px;
+    text-transform: uppercase;
     background: transparent;
     color: #ffffff;
     border: 2px solid #ffffff;
@@ -495,21 +504,21 @@ footer .main-footer .foot-links-block .follow-links li a span:hover i{
     color: var(--primary-blue);
     text-transform: uppercase;
 }
-.quality-step-sec .quality-steps-block .btn-block button{
-    border-radius: 30px;
-    border: none;
-    padding: 10px 30px;
-    text-transform: uppercase;
-}
-.quality-step-sec .btn-block button.btn-blue{
+.btn-block button.btn-blue{
     background: var(--primary-blue);
     color: #ffffff;
     border: 2px solid var(--primary-blue);
+    border-radius: 30px;
+    padding: 10px 30px;
+    text-transform: uppercase;
 }
-.quality-step-sec .btn-block button.btn-light{
+.btn-block button.btn-light{
     background: transparent;
     color: var(--primary-blue);
     border: 2px solid var(--primary-blue);
+    border-radius: 30px;
+    padding: 10px 30px;
+    text-transform: uppercase;
 }
 .choose-writer-sec{
     margin: 50px 0 0;
@@ -877,3 +886,88 @@ footer .main-footer .foot-links-block .follow-links li a span:hover i{
     margin: 15px auto;
     color: var(--primary-grey);
 }
+/* Landing Page End */
+
+/* Teams Page Start */
+.teams-banner-sec{
+    padding: 70px 15px;
+    background: url('../../assets/media/teams-banner.png');
+    background-size: cover;
+}
+.teams-banner-sec h1{
+    color: #ffffff;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.teams-banner-sec p{
+    font-size: 16px;
+    color: #ffffff;
+}
+.teams-banner-sec p span{
+    color: var(--primary-yellow);
+}
+.team-listing-sec .teams-listing-block ul li{
+    text-align: center;
+}
+.team-listing-sec .teams-listing-block ul li > div{
+    padding: 30px 10px;
+    min-width: 230px;
+    min-height: 290px;
+    border: 1px solid var(--primary-blue-light);
+    border-radius: 15px;
+}
+.team-listing-sec .teams-listing-block ul li > div .writer-meta{
+    margin: 15px auto;
+}
+.team-listing-sec .teams-listing-block ul li > div .writer-meta .writer-img img{
+    width: 75px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+.team-listing-sec .teams-listing-block ul li > div .writer-meta p{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.team-listing-sec .teams-listing-block ul li > div .writer-meta p span.rating-count{
+    color: #adadad;
+    font-size: 14px;
+    padding: 0 10px;
+    border-right: 1px solid #adadad;
+}
+.team-listing-sec .teams-listing-block ul li > div .writer-meta p span.reviews-count{
+    color: #adadad;
+    font-size: 14px;
+    padding: 0 10px;
+}
+.team-listing-sec .teams-listing-block ul li > div:hover{
+    background: var(--primary-blue-light);
+}
+.team-listing-sec .teams-listing-block ul li > div .order-count{
+    padding: 10px;
+    border-top: 2px solid #ececec;
+}
+.team-listing-sec .teams-listing-block ul li > div .order-count span{
+    color: #adadad;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+.team-listing-sec .teams-listing-block ul li > div .btn-block button{
+    line-height: 1;
+    border: 1px solid var(--primary-blue);
+    padding: 10px;
+    font-size: 12px;
+}
+.team-listing-sec .listing-filter-block{
+    margin: 30px auto;
+}
+.team-listing-sec .listing-filter-block select{
+    border-radius: 30px;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    background: transparent;
+    color: var(--primary-blue);
+    border: 2px solid var(--primary-blue-light);
+    height: 50px;
+}
+/* Teams Page End */
