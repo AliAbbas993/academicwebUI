@@ -6,11 +6,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- Bootstrap CSS -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" rel="stylesheet"/>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+        <link href="./src/style/bootstrap.min.css" rel="stylesheet"/>
+        <link rel="stylesheet" href="./src/style/fontawesome.css"/>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-        <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+        <link rel="stylesheet" type="text/css" href="./src/style/slick.min.css"/>
+        <link rel="stylesheet" type="text/css" href="./src/style/slick-theme.css"/>
         <link rel="stylesheet" href="./src/style/index.css"/>
         <link rel="stylesheet" href="./src/style/responsive.css"/>
         <title>Hello, world!</title>
