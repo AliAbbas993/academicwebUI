@@ -7,14 +7,14 @@
 
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="./src/style/bootstrap.min.css"/>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
         <link rel="stylesheet" href="./src/style/fontawesome.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap">
         <link rel="stylesheet" type="text/css" href="./src/style/slick.min.css"/>
         <link rel="stylesheet" type="text/css" href="./src/style/slick-theme.css"/>
         <link rel="stylesheet" href="./src/style/index.css"/>
         <link rel="stylesheet" href="./src/style/responsive.css"/>
-        <title>Hello, world!</title>
+        <title>Essay Service</title>
     </head>
     <body>
         <header>
@@ -44,19 +44,22 @@
                                 <div class="collapse navbar-collapse" id="navbarNav">
                                     <ul class="navbar-nav">
                                         <li class="nav-item active">
-                                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                                            <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#">Service</a>
+                                            <a class="nav-link" href="service.php">Service</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#">About us</a>
+                                            <a class="nav-link" href="pricing.php">Pricing</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#">Blog</a>
+                                            <a class="nav-link" href="blog.php">Blog</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#">Contact Us</a>
+                                            <a class="nav-link" href="blog-detail.php">Blog Detail</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="teams.php">Teams</a>
                                         </li>                            
                                         <li class="nav-item">
                                             <button class="btn-blue">Login</button>

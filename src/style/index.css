@@ -1209,3 +1209,58 @@ footer .main-footer .foot-links-block .follow-links li a span:hover i{
     color: var(--primary-grey);
 }
 /* Blog Listing Page Start */
+
+/* Pricing Page Start */
+.service-banner-sec{
+    padding: 70px 15px;
+    background: url('../../assets/media/step-banner.png');
+    background-size: cover;
+}
+.service-banner-sec h1{
+    color: #ffffff;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 50px auto;
+}
+.service-step-sec{
+    padding: 50px 0;
+    display: inline-block;
+    width: 100%;
+}
+.service-step-sec .service-step-block{
+    display: flex;
+    flex-wrap: wrap;
+}
+.service-step-sec .service-step-block:nth-child(even){
+    flex-direction: row-reverse;
+}
+.service-step-sec .service-step-block .step-img{
+    display: inline-flex;
+    margin-bottom: 30px;
+    align-items: center;
+}
+.service-step-sec .service-step-block .step-img img{
+    width: 100%;
+    box-shadow: 0px 30px 30px #ececec;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.service-step-sec .service-step-block .step-content h3{
+    display: inline-block;
+    font-size: 24px;
+    font-weight: 600;
+    color: #3d3d3d;
+}
+.service-step-sec .service-step-block .step-content h4{
+    display: inline-block;
+    color: var(--primary-blue);
+    font-size: 22px;
+    font-weight: 600;
+    margin: 10px auto;
+}
+.service-step-sec .service-step-block .step-content p{
+    display: inline-block;
+    color: #3d3d3d;
+    font-size: 16px;
+    margin: 15px auto;
+}

@@ -3,7 +3,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12 d-flex flex-wrap justify-content-center">
-                <h1>Blog</h1>
+                <h1>Blogs</h1>
             </div>
         </div>
     </div>
