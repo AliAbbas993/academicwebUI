@@ -971,3 +971,241 @@ footer .main-footer .foot-links-block .follow-links li a span:hover i{
     height: 50px;
 }
 /* Teams Page End */
+
+/* Pricing Page Start */
+.pricing-banner-sec{
+    padding: 70px 15px;
+    background: url('../../assets/media/price-banner.png');
+    background-size: cover;
+}
+.pricing-banner-sec h1{
+    color: #ffffff;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 50px auto;
+}
+.pricing-table-sec{
+    padding: 50px 0;
+    display: inline-block;
+    width: 100%;
+}
+.pricing-table-sec .pricing-feature-block{
+    text-align: center;
+    margin-bottom: 50px;
+    display: inline-block;
+    width: 100%;
+}
+.pricing-table-sec .pricing-feature-block h3{
+    margin: 30px auto 15px;
+    color: var(--primary-grey);
+    font-weight: 700;
+    font-size: 30px;
+}
+.pricing-table-sec .pricing-feature-block p{
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--primary-grey);
+}
+.pricing-table-sec .pricing-feature-block ul li .features-items{
+    display: inline-flex;
+    margin: 10px 20px;
+    color: var(--primary-grey);
+    font-size: 16px;
+    align-items: center;
+}
+.pricing-table-sec .pricing-feature-block ul li .features-items span{
+    font-size: 25px;
+    color: #adadad;
+}
+.pricing-table-sec .pricing-table-block table{
+    width: 100%;
+    margin-bottom: 1rem;
+    color: var(--primary-grey);
+    max-width: 767px;
+    margin: 0 auto;
+}
+.pricing-table-sec .pricing-table-block .table thead th{
+    vertical-align: bottom;
+    border: none;
+    border-bottom: none;
+    padding: 10px 10px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--primary-grey);
+    min-width: 100px;
+    vertical-align: top;
+}
+.pricing-table-sec .pricing-table-block .table thead tr th:not(:last-child , :first-child){
+    border-right: 1px solid #ececec;
+}
+.pricing-table-sec .pricing-table-block .table thead th:first-child{
+    border-right: 1px solid var(--primary-blue);
+}
+.pricing-table-sec .pricing-table-block .table tbody tr td{
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--primary-grey);
+    vertical-align: middle;
+}
+.pricing-table-sec .pricing-table-block .table tbody tr td:not(:last-child , :first-child){
+    border-right: 1px solid #ececec;
+}
+.pricing-table-sec .pricing-table-block .table tbody td:first-child{
+    border-right: 1px solid var(--primary-blue);
+}
+.pricing-table-sec .pricing-table-block .table tbody tr:nth-child(odd){
+    background-color: #c0e0ff52;
+}
+.pricing-table-sec .pricing-table-block .table tbody tr:nth-child(even) td{
+    vertical-align: middle;
+    line-height: 3;
+}
+.pricing-table-sec .pricing-table-block .table tbody tr:nth-child(odd) td:first-child{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.pricing-table-sec .pricing-table-block .table tbody tr:nth-child(odd) td:last-child{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+/* Pricing Page End */
+
+/* Blog Listing Page Start */
+.blog-banner-sec{
+    padding: 70px 15px;
+    background: url('../../assets/media/blog-banner.png');
+    background-size: cover;
+}
+.blog-banner-sec h1{
+    color: #ffffff;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 50px auto;
+}
+.blog-listing-sec{
+    padding: 50px 0;
+}
+.blog-listing-sec .blog-listing-block{
+    position: relative;
+    margin: 30px auto;
+}
+.blog-listing-sec .blog-listing-block h4{
+    position: absolute;
+    top: 0;
+    margin: 0;
+    font-size: 20px;
+    color: #3d3d3d;
+    font-weight: 500;
+}
+.blog-listing-sec .blog-listing-block ul li .blog-listing-item{
+    display: inline-block;
+}
+.blog-listing-sec .blog-listing-block ul li .blog-listing-item .blog-date{
+    margin-bottom: 15px;
+}
+.blog-listing-sec .blog-listing-block ul li .blog-listing-item .blog-date span{
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #3d3d3d;
+}
+.blog-listing-sec .blog-listing-block ul li .blog-listing-item .blog-img{
+    width: 100%;
+}
+.blog-listing-sec .blog-listing-block ul li .blog-listing-item .blog-img img{
+    width: 100%;
+    max-height: 350px;
+    object-fit: cover;
+    object-position: center;
+    display: inline-block;
+}
+.blog-listing-sec .blog-listing-block ul li .blog-listing-item .blog-img h5{
+    display: inline-block;
+    margin: 30px auto;
+    width: 100%;
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--primary);
+    line-height: 1;
+}
+.blog-listing-sec .blog-listing-block ul li .blog-listing-item .blog-img p{
+    font-size: 16px;
+    color: #3d3d3d;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.blog-listing-sec .blog-listing-block ul li .blog-listing-item .blog-img button{
+    padding: 15px 40px;
+    border-radius: 30px;
+    background: var(--primary);
+    color: #ffffff;
+    font-size: 16px;
+    border: none;
+    text-transform: uppercase;
+}
+.blog-listing-sec .blog-side-block{
+    position: relative;
+    margin: 30px auto;
+}
+.blog-listing-sec .blog-side-block .blog-search{
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    margin-top: 35px;
+}
+.blog-listing-sec .blog-side-block .blog-search input{
+    width: 100%;
+    height: 50px;
+    border-radius: 50px;
+    border: 1px solid #adadad;
+    padding: 5px 15px;
+    color: #adadad;
+}
+.blog-listing-sec .blog-side-block .blog-search input::placeholder{
+    color: #adadad;
+}
+.blog-listing-sec .blog-side-block .blog-search button{
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border-radius: 50px;
+    width: 55px;
+    padding: 0;
+    border: none;
+    background: transparent;
+}
+.blog-listing-sec .blog-side-block .blog-recent-category{
+    margin: 20px auto;
+    padding: 10px;
+}
+.blog-listing-sec .blog-side-block .blog-recent-category h6{
+    font-size: 20px;
+    color: var(--primary);
+    border-bottom: 1px solid var(--primary);
+    margin: 0;
+    display: inline-block;
+    line-height: 1;
+}
+.blog-listing-sec .blog-side-block .blog-recent-category ul li p{
+    display: inline-block;
+    margin: 0;
+    margin-top: 15px;
+    padding-left: 25px;
+    line-height: 1.5;
+    position: relative;
+}
+.blog-listing-sec .blog-side-block .blog-recent-category ul li p::before{
+    position: absolute;
+    content: '';
+    left: 7px;
+    top: calc(50% - 7px);
+    width: 7px;
+    height: 7px;
+    background-color: #5a5a5ac7;
+    border-radius: 50%;
+}
+.blog-listing-sec .blog-side-block .blog-recent-category ul li p a{
+    color: var(--primary-grey);
+}
+/* Blog Listing Page Start */
