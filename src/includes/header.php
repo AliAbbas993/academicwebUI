@@ -14,28 +14,16 @@
         <link rel="stylesheet" type="text/css" href="./src/style/slick-theme.css"/>
         <link rel="stylesheet" href="./src/style/index.css"/>
         <link rel="stylesheet" href="./src/style/responsive.css"/>
-        <title>Essay Service</title>
+        <title>Shore</title>
     </head>
     <body>
         <header>
-            <div class="top-header">
-                <div class="container px-0">
-                    <div class="col-md-12 d-flex flex-wrap justify-content-end px-0">
-                        <div class="col-md-6 contact-info">
-                            <ul class="list-unstyled m-0 d-flex justify-content-end">
-                                <li class="mx-2"><a href="tel:02134567890"><span class="mr-2"><i class="fa fa-envelope-o" aria-hidden="true"></i></span>021-34567-890</a></li>
-                                <li class="mx-2"><a href="mailto:adc@gmail.com"><span class="mr-2"><i class="fa fa-phone" aria-hidden="true"></i></span>adc@gmail.com</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
             <div class="main-header">
                 <div class="container px-0">
                     <div class="col-md-12 px-0">
                         <nav class="navbar navbar-expand-lg navbar-light bg-light d-lg-flex justify-content-between">
                             <div class="logo-block">
-                                <a class="navbar-brand" href="#">LOGO</a>
+                                <a class="navbar-brand" href="#">SHORE</a>
                             </div>   
                             <div class="nav-links-block">
                                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -47,22 +35,16 @@
                                             <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="service.php">Service</a>
+                                            <a class="nav-link" href="https://dls-global.com/" target="_blank">About Partner</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="pricing.php">Pricing</a>
+                                            <a class="nav-link" href="https://dls-global.com/" target="_blank">Partner's Services</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="blog.php">Blog</a>
+                                            <a class="nav-link" href="https://dls-global.com/our-products" target="_blank">Partner's Products</a>
                                         </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="blog-detail.php">Blog Detail</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="teams.php">Teams</a>
-                                        </li>                            
-                                        <li class="nav-item">
-                                            <button class="btn-blue">Login</button>
+                                        <li class="nav-item">  
+                                            <a class="nav-link" href="#contact-us">Contact Us</a>
                                         </li>
                                     </ul>
                                 </div>
