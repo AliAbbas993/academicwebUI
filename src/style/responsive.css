@@ -19,18 +19,19 @@
         border-radius: 20px;
         background: #ffffff;
     } 
-    .main-header .nav-links-block .navbar-collapse.collapse.show , .main-header .nav-links-block .navbar-collapse.collapsing{
+    .main-header .nav-links-block .navbar-collapse.collapse.show, .main-header .nav-links-block .navbar-collapse.collapsing{
         position: absolute;
         width: 100%;
         right: 0;
         left: 0;
-        top: 60px;
+        top: 75px;
         box-shadow: 0 0 10px #ececec;
         justify-content: center;
         display: flex;
         padding: 10px;
         border-radius: 20px;
         background: #ffffff;
+        z-index: 1;
     }
     .main-header .navbar-nav{
         width: 100%;
@@ -40,6 +41,9 @@
         width: 100%;
         padding: 10px;
         margin: 0;
+    }
+    .main-header .navbar-nav .nav-item .nav-link {
+        color: #3d3d3d;
     }
     .banner-form-sec .price-calculator{
         margin-bottom: 50px;

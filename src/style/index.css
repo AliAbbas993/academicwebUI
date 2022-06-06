@@ -69,7 +69,12 @@
     right: 0;
     transition: all 0.5s ease-in-out;
 }
-
+.main-header .navbar-collapse .show .navbar-nav .nav-item .nav-link{
+    color: var(--primary-grey);
+}
+.main-header .navbar-collapse .show {
+    
+}
 /* Header Style End */
 
 /* Footer Style Start */
