@@ -1,4 +1,4 @@
-<ul class="list-unstyled d-flex flex-wrap">
+<ul class="list-unstyled d-flex flex-wrap justify-content-center align-items-center">
     <li>
         <div class="card m-2" style="width: 20rem; height: 15rem">
         <img src="./assets/media/service.webp" class="card-img-top" alt="...">

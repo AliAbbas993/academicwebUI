@@ -14,6 +14,7 @@
         <link rel="stylesheet" type="text/css" href="./src/style/slick-theme.css"/>
         <link rel="stylesheet" href="./src/style/index.css"/>
         <link rel="stylesheet" href="./src/style/responsive.css"/>
+        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
         <title>Shore</title>
     </head>
     <body>
