@@ -1,6 +1,6 @@
 
 <div class="clients-list">
-    <ul class="list-unstyled d-flex flex-wrap justify-content-center align-items-center">
+    <ul class="list-unstyled d-flex flex-wrap justify-content-center align-items-center mt-5">
         <li>
             <img src="./assets/media/clients/1.webp" alt="" />
         </li>

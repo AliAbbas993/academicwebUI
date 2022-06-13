@@ -3,7 +3,7 @@ $(document).ready(function(){
         slidesToShow: 3,
         infinite: false,
         slidesToScroll: 1,
-        dots: true,
+        dots: false,
         button: false,
         autoplay: true,
         autoplaySpeed: 2000,

@@ -15,7 +15,7 @@
         <link rel="stylesheet" href="./src/style/index.css"/>
         <link rel="stylesheet" href="./src/style/responsive.css"/>
         <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-        <title>Shore</title>
+        <title>Shoreditech</title>
     </head>
     <body>
         <header>
@@ -24,7 +24,7 @@
                     <div class="col-md-12 px-0">
                         <nav class="navbar navbar-expand-lg navbar-light">
                             <div class="logo-block">
-                                <a class="navbar-brand" href="#">SHORE</a>
+                                <a class="navbar-brand" href="#">Shoreditech</a>
                             </div>   
                             <div class="nav-links-block w-100">
                                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -39,16 +39,13 @@
                                             <a class="nav-link" href="https://dls-global.com/" target="_blank">Company</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="https://dls-global.com/" target="_blank">Services</a>
+                                            <a class="nav-link" href="#services">Services</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="https://dls-global.com/our-products" target="_blank">Work</a>
+                                            <a class="nav-link" href="#products">Work</a>
                                         </li>
-                                        <!-- <li class="nav-item">  
-                                            <a class="nav-link" href="#contact-us">Contact Us</a>
-                                        </li> -->
                                         <li class="nav-item">  
-                                            <a class="nav-link" href="#career">Career</a>
+                                            <a class="nav-link" href="#contact-us">Contact Us</a>
                                         </li>
                                     </ul>
                                 </div>
