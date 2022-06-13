@@ -21,30 +21,33 @@
             <div class="main-header">
                 <div class="container px-0">
                     <div class="col-md-12 px-0">
-                        <nav class="navbar navbar-expand-lg navbar-light bg-light d-lg-flex justify-content-between">
+                        <nav class="navbar navbar-expand-lg navbar-light">
                             <div class="logo-block">
                                 <a class="navbar-brand" href="#">SHORE</a>
                             </div>   
-                            <div class="nav-links-block">
+                            <div class="nav-links-block w-100">
                                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                                     <span class="navbar-toggler-icon"></span>
                                 </button>
-                                <div class="collapse navbar-collapse" id="navbarNav">
+                                <div class="collapse navbar-collapse d-lg-flex justify-content-center" id="navbarNav">
                                     <ul class="navbar-nav">
                                         <li class="nav-item active">
                                             <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="https://dls-global.com/" target="_blank">About Partner</a>
+                                            <a class="nav-link" href="https://dls-global.com/" target="_blank">Company</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="https://dls-global.com/" target="_blank">Partner's Services</a>
+                                            <a class="nav-link" href="https://dls-global.com/" target="_blank">Services</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="https://dls-global.com/our-products" target="_blank">Partner's Products</a>
+                                            <a class="nav-link" href="https://dls-global.com/our-products" target="_blank">Work</a>
                                         </li>
-                                        <li class="nav-item">  
+                                        <!-- <li class="nav-item">  
                                             <a class="nav-link" href="#contact-us">Contact Us</a>
+                                        </li> -->
+                                        <li class="nav-item">  
+                                            <a class="nav-link" href="#career">Career</a>
                                         </li>
                                     </ul>
                                 </div>

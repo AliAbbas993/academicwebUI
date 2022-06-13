@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $('.choose-writer-slider > ul').slick({
+    $('.products-slider > ul').slick({
         slidesToShow: 3,
         infinite: false,
         slidesToScroll: 1,
