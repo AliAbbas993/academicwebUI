@@ -23,26 +23,26 @@
         </div>
     </div>
 </section>
-<section class="services-sec">
+<section class="services-sec" id="services">
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-12 mb-4">
                 <div class="content-block">
                     <h3 class="sec-title">Our Services</h3>
-                    <p class="sec-desc">Focusing on innovation and digitalization while providing industry-leading solutions. Digital Landscape provide digital solution in every leading technology.</p>
+                    <p class="sec-desc">Focusing on innovation and digitalization while providing industry-leading solutions.</p>
                     <?php include './services.php' ?>
                 </div>
             </div>
         </div>
     </div>
 </section>
-<section class="products-sec">
+<section class="products-sec" id="products">
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-12 mb-4">
                 <div class="content-block">
                     <h3 class="sec-title">Our Work</h3>
-                    <p class="sec-desc">exciting web and mobile applications for various business models.</p>
+                    <p class="sec-desc">Exciting web and mobile applications for various business models.</p>
                     <?php include './products.php' ?>
                 </div>
             </div>
@@ -88,5 +88,52 @@
     </div>
 </section>
 <section class="contact-sec" id="contact-us">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-md-4 mb-4 content-block">
+                <h4>what we'll do next</h4>
+                <ul class="list">
+                    <li>our team will contact you within one business day</li>
+                    <li>we will engage on initial discussion to understand your requirements</li>
+                    <li>our team of analysts and developers will assess the scope and propose a way forward with mutual consultation</li>
+                    <li>all information exchange is protected via a mutual NDA</li>
+                </ul>
+            </div>
+            <div class="col-12 col-md-8 mb-4 form-block">
+                <h2>Get started with us</h2>
+                <form>
+                    <div class="form-row">
+                        <div class="col-md-6">
+                            <input type="text" class="form-control" placeholder="Full Name*">
+                        </div>
+                        <div class="col-md-6">
+                            <input type="password" class="form-control" placeholder="Email*">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col-md-6">
+                            <input type="text" class="form-control" placeholder="Phone Number" />
+                        </div>
+                        <div class="col-md-6">
+                            <input type="password" class="form-control" placeholder="Budget" />
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col-md-6">
+                            <input type="text" class="form-control" placeholder="Country" />
+                        </div>
+                        <div class="col-md-6">
+                            <input type="text" class="form-control" placeholder="City" />
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <textarea type="text" class="form-control" placeholder="Your Message" rows="4" cols="12">
+                        </textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Sign in</button>
+                    </form>
+            </div>
+        </div>
+    </div>
 </section>
 <?php include'./src/includes/footer.php'?>

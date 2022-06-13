@@ -18,8 +18,10 @@
 }
 .sec-desc {
     font-size: 16px;
-    text-align: center;
     color: var(--primary-blue);
+    text-align: center;
+    text-shadow: 0px 3px 6px #0000001A;
+    letter-spacing: 0.43px;
     margin: 15px auto;
 }
 .btn-blue{
@@ -33,12 +35,18 @@
     text-decoration: none !important;
     text-shadow: 0px 8px 16px #0000001A !important;
 }
+.slick-prev {
+    left: 0;
+}
+.slick-next {
+    right: 0;
+}
 /* Header Style Start */
 .main-header .logo-block a.navbar-brand{
     color: var(--primary-blue);
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 50px;
+    font-size: 30px;
 }
 .main-header{
     /* background-color: var(--primary-blue); */
@@ -398,14 +406,10 @@ footer .main-footer .foot-links-block .follow-links li a span:hover i{
     padding: 10px 30px;
     text-transform: uppercase;
 }
-.about-us-sec, .services-sec .products-sec{
+.about-us-sec, .services-sec, .products-sec{
     display: inline-block;
     padding: 10px 0;
     width: 100%;
-}
-.about-us-sec .content-block, .services-sec .content-block, .products-sec .content-block{
-    margin: 10px auto;
-    display: inline-block;
 }
 .about-us-sec .content-block h1{
     color: var(--primary-blue);
@@ -431,27 +435,84 @@ footer .main-footer .foot-links-block .follow-links li a span:hover i{
 }
 
 /* Services Section */
-.services-sec .card img {
-    /* background-image: url("../../assets/media/service.webp");
+.services-sec .card {
+    border: none;
+}
+.services-sec .card .card-body #service1{
+    background-image: url("../../assets/media/services/service1.png");
     background-size: cover;
-    background-repeat: no-repeat; */
-    width: 20rem; 
-    height: 15rem
+    background-repeat: no-repeat;
+    height: 100%;
 }
-.services-sec .card .card-body{
-    /* background-color: #FFFFFF;     */
+.services-sec .card .card-body #service2{
+    background-image: url("../../assets/media/services/service2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+.services-sec .card .card-body #service3{
+    background-image: url("../../assets/media/services/service3.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+.services-sec .card .card-body #service4{
+    background-image: url("../../assets/media/services/service4.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+.services-sec .card .card-body #service5{
+    background-image: url("../../assets/media/services/service5.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+.services-sec .card .card-body #service6{
+    background-image: url("../../assets/media/services/service6.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+.services-sec .card .card-body .service-content {
+    background-color: #ffffff;
+    margin: 5% 15%;
+    padding: 5%;
+    box-shadow: 0px 6px 16px #00000029;
+}
+.services-sec .card .card-body .service-content a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+}
+.services-sec .card .card-body .service-content .card-text{
+    color: #242424;
+    padding: 10px 10px 0 0;
+    font-size: 12px;
 }
 
-/* Products Section */
-.products-sec .card img {
-    width: 10rem; 
-    height: 10rem
+/* Our Work */
+.products-sec .products-slider ul li .card {
+    border: none;
 }
-.products-sec .card .img {
-    width: 10rem; 
-    height: 10rem
+.products-sec .products-slider ul li .card .card-body img {
+    height: 220px;
+    padding: 20px 10px;
+    width: 300px;
 }
-
+.products-sec .products-slider ul li .card .card-body .card-title {
+    color: var(--primary-blue);
+    font-size: 20px;
+}
+.products-sec .products-slider ul li .card .card-body .card-text {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+.products-sec .products-slider ul li .card .card-body button a {
+    font-size: 16px;
+}
 /* Technologies Section */
 .tech-sec .content-block .tech-list ul li img {
     max-width: 230px;
@@ -521,10 +582,19 @@ footer .main-footer .foot-links-block .follow-links li a span:hover i{
     -webkit-box-orient: vertical;
 }
 .clients-testo-sec .content-block .clients-testo-slider ul li .testo-content .more-btn {
-    /* background-color: transparent; */
-    border: 2px solid #55a9f3;
     color: #fff;
     padding: 10px 40px;
-    background: #55a9f3;
+    text-decoration: none;
+}
+
+/* Contact Us Section */
+.contact-sec {
+    background-color: var(--primary-blue);
+    color: #FFFFFF;
+    padding: 25px;
+}
+.contact-sec .form-block .form-control input{
+    background-color: var(--primary-blue);
+    color: #FFFFFF;
 }
 /* Landing Page End */
