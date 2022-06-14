@@ -1,6 +1,6 @@
 <ul class="list-unstyled d-flex flex-wrap justify-content-center align-items-center">
     <li>
-        <div class="card m-2" style="width: 25rem; height: 20rem">
+        <div class="card m-2" style="width: 20rem; height: 20rem">
             <div class="card-body">
                 <div id="service1">
                     <div class="service-content">
@@ -19,7 +19,7 @@
         </div>
     </li>
     <li>
-        <div class="card m-2" style="width: 25rem; height: 20rem">
+        <div class="card m-2" style="width: 20rem; height: 20rem">
             <div class="card-body">
                 <div id="service2">
                     <div class="service-content">
@@ -37,7 +37,7 @@
         </div>
     </li>
     <li>
-        <div class="card m-2" style="width: 25rem; height: 20rem">
+        <div class="card m-2" style="width: 20rem; height: 20rem">
             <div class="card-body">
                 <div id="service3">
                     <div class="service-content">
@@ -55,7 +55,7 @@
         </div>
     </li>
     <li>
-        <div class="card m-2" style="width: 25rem; height: 20rem">
+        <div class="card m-2" style="width: 20rem; height: 20rem">
             <div class="card-body">
                 <div id="service4">
                     <div class="service-content">
@@ -73,7 +73,7 @@
         </div>
     </li>
     <li>
-        <div class="card m-2" style="width: 25rem; height: 20rem">
+        <div class="card m-2" style="width: 20rem; height: 20rem">
             <div class="card-body">
                 <div id="service5">
                     <div class="service-content">
@@ -91,7 +91,7 @@
         </div>
     </li>
     <li>
-        <div class="card m-2" style="width: 25rem; height: 20rem">
+        <div class="card m-2" style="width: 20rem; height: 20rem">
             <div class="card-body">
                 <div id="service6">
                     <div class="service-content">

@@ -90,9 +90,9 @@
 <section id="contact-us">
     <div class="container-fluid">
         <div class="contact-sec m-5">
-            <div class="row">
-                <div class="col-12 col-md-4 mb-4 content-block">
-                    <h4>what we'll do next</h4>
+            <div class="row mx-0">
+                <div class="col-12 col-md-4 content-block">
+                    <h4 class="text-center mb-4">what we'll do next</h4>
                     <ul>
                         <li>our team will contact you within one business day</li>
                         <li>we will engage on initial discussion to understand your requirements</li>
@@ -100,8 +100,8 @@
                         <li>all information exchange is protected via a mutual NDA</li>
                     </ul>
                 </div>
-                <div class="col-12 col-md-8 mb-4 form-block">
-                    <h2 class="mb-3">Get started with us</h2>
+                <div class="col-12 col-md-8 form-block">
+                    <h4 class="mb-4">Get started with us</h4>
                     <form>
                         <div class="form-row">
                             <div class="col-md-6">
@@ -129,11 +129,13 @@
                         </div>
                         <div class="form-row">
                             <div class="col-md-12">
-                                <textarea type="text" class="form-control " placeholder="Your Message" rows="4" cols="12">
+                                <textarea type="text" class="form-control" placeholder="Your Message..." rows="7" cols="12">
                                 </textarea>
                             </div>
                         </div>
-                        <button type="submit" class="btn btn-primary">Send request</button>
+                        <div class="d-flex justify-content-end">
+                            <button type="submit" class="rfq-btn">Send request</button>
+                        </div>
                     </form>
                 </div>
             </div>

@@ -66,4 +66,16 @@
     .paper-tab-sec .tabs-block .tabs-content-block{
         padding-left: 15px;
     }
+    .main-footer .foot-links-block {
+        text-align: left !important;
+    }
+    footer .main-footer .foot-links-block p {
+        padding-left: 0 !important;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .about-us-sec .content-block h1 {
+        font-size: 50px;
+    }
 }

@@ -22,7 +22,7 @@
             <div class="main-header">
                 <div class="container px-0">
                     <div class="col-md-12 px-0">
-                        <nav class="navbar navbar-expand-lg navbar-light d-flex">
+                        <nav class="navbar navbar-expand-lg navbar-light d-flex justify-content-between">
                             <div class="logo-block">
                                 <a class="navbar-brand" href="#">Shoreditech</a>
                             </div>   
@@ -30,7 +30,7 @@
                                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                                     <span class="navbar-toggler-icon"></span>
                                 </button>
-                                <div class="collapse navbar-collapse d-lg-flex justify-content-center" id="navbarNav">
+                                <div class="collapse navbar-collapse" id="navbarNav">
                                     <ul class="navbar-nav">
                                         <li class="nav-item active">
                                             <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
@@ -43,6 +43,9 @@
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link" href="#products">Work</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="https://www.dls-global.com/career" target="_blank">Careers</a>
                                         </li>
                                         <li class="nav-item">  
                                             <a class="nav-link" href="#contact-us">Contact Us</a>

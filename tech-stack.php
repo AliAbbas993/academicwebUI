@@ -134,7 +134,7 @@
         </li> 
     </ul>
 </div>
-<div class="m-0 p-5 our-impact-categories d-flex justify-content-lg-around justify-content-center align-items-center text-center">
+<div class="m-0 p-5 our-impact-categories d-flex flex-wrap justify-content-lg-around justify-content-center align-items-center text-center">
     <div class="impact-cat m-2">
         <h2>3+</h2>
         <p>Years</p>
