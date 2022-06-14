@@ -22,11 +22,11 @@
             <div class="main-header">
                 <div class="container px-0">
                     <div class="col-md-12 px-0">
-                        <nav class="navbar navbar-expand-lg navbar-light">
+                        <nav class="navbar navbar-expand-lg navbar-light d-flex">
                             <div class="logo-block">
                                 <a class="navbar-brand" href="#">Shoreditech</a>
                             </div>   
-                            <div class="nav-links-block w-100">
+                            <div class="nav-links-block">
                                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                                     <span class="navbar-toggler-icon"></span>
                                 </button>

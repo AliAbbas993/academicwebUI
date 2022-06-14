@@ -582,7 +582,7 @@ footer .main-footer .foot-links-block .follow-links li a span:hover i{
     -webkit-box-orient: vertical;
 }
 .clients-testo-sec .content-block .clients-testo-slider ul li .testo-content .more-btn {
-    color: #fff;
+    color: #FFFFFF;
     padding: 10px 40px;
     text-decoration: none;
 }
@@ -593,8 +593,26 @@ footer .main-footer .foot-links-block .follow-links li a span:hover i{
     color: #FFFFFF;
     padding: 25px;
 }
-.contact-sec .form-block .form-control input{
-    background-color: var(--primary-blue);
+.contact-sec .content-block {
+    box-shadow: 10px 0 5px -2px #00000029;
+}
+.contact-sec .content-block ul{
+    list-style-type: square;
+}
+.contact-sec .content-block ul li::marker {
+    font-size: 25px;
+}
+.contact-sec .content-block ul li {
+    text-align: left;
+    font-size: 16px;
+}
+.contact-sec .form-block .form-control {
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+    border-radius: 0;
+    margin-bottom: 25px;
+}
+.contact-sec .form-block .form-control::placeholder {
     color: #FFFFFF;
 }
 /* Landing Page End */

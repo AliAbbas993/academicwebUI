@@ -87,51 +87,55 @@
         </div>
     </div>
 </section>
-<section class="contact-sec" id="contact-us">
+<section id="contact-us">
     <div class="container-fluid">
-        <div class="row">
-            <div class="col-12 col-md-4 mb-4 content-block">
-                <h4>what we'll do next</h4>
-                <ul class="list">
-                    <li>our team will contact you within one business day</li>
-                    <li>we will engage on initial discussion to understand your requirements</li>
-                    <li>our team of analysts and developers will assess the scope and propose a way forward with mutual consultation</li>
-                    <li>all information exchange is protected via a mutual NDA</li>
-                </ul>
-            </div>
-            <div class="col-12 col-md-8 mb-4 form-block">
-                <h2>Get started with us</h2>
-                <form>
-                    <div class="form-row">
-                        <div class="col-md-6">
-                            <input type="text" class="form-control" placeholder="Full Name*">
+        <div class="contact-sec m-5">
+            <div class="row">
+                <div class="col-12 col-md-4 mb-4 content-block">
+                    <h4>what we'll do next</h4>
+                    <ul>
+                        <li>our team will contact you within one business day</li>
+                        <li>we will engage on initial discussion to understand your requirements</li>
+                        <li>our team of analysts and developers will assess the scope and propose a way forward with mutual consultation</li>
+                        <li>all information exchange is protected via a mutual NDA</li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-8 mb-4 form-block">
+                    <h2 class="mb-3">Get started with us</h2>
+                    <form>
+                        <div class="form-row">
+                            <div class="col-md-6">
+                                <input type="text" class="form-control" placeholder="Full Name*">
+                            </div>
+                            <div class="col-md-6">
+                                <input type="password" class="form-control" placeholder="Email*">
+                            </div>
                         </div>
-                        <div class="col-md-6">
-                            <input type="password" class="form-control" placeholder="Email*">
+                        <div class="form-row">
+                            <div class="col-md-6">
+                                <input type="text" class="form-control" placeholder="Phone Number" />
+                            </div>
+                            <div class="col-md-6">
+                                <input type="password" class="form-control" placeholder="Budget" />
+                            </div>
                         </div>
-                    </div>
-                    <div class="form-row">
-                        <div class="col-md-6">
-                            <input type="text" class="form-control" placeholder="Phone Number" />
+                        <div class="form-row">
+                            <div class="col-md-6">
+                                <input type="text" class="form-control" placeholder="Country" />
+                            </div>
+                            <div class="col-md-6">
+                                <input type="text" class="form-control" placeholder="City" />
+                            </div>
                         </div>
-                        <div class="col-md-6">
-                            <input type="password" class="form-control" placeholder="Budget" />
+                        <div class="form-row">
+                            <div class="col-md-12">
+                                <textarea type="text" class="form-control " placeholder="Your Message" rows="4" cols="12">
+                                </textarea>
+                            </div>
                         </div>
-                    </div>
-                    <div class="form-row">
-                        <div class="col-md-6">
-                            <input type="text" class="form-control" placeholder="Country" />
-                        </div>
-                        <div class="col-md-6">
-                            <input type="text" class="form-control" placeholder="City" />
-                        </div>
-                    </div>
-                    <div class="form-row">
-                        <textarea type="text" class="form-control" placeholder="Your Message" rows="4" cols="12">
-                        </textarea>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Sign in</button>
+                        <button type="submit" class="btn btn-primary">Send request</button>
                     </form>
+                </div>
             </div>
         </div>
     </div>
