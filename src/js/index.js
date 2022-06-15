@@ -1,4 +1,69 @@
 $(document).ready(function(){
+    $('.tech-list ul').slick({
+        slidesToShow: 6,
+        centerMode: true,
+        infinite: true,
+        easing: 'linear',
+        dots: false,
+        button: false,
+        autoplay: true,
+        speed: 1500,
+        autoplaySpeed: 1000,
+        responsive: [
+            {
+              breakpoint: 1024,
+              settings: {
+                slidesToShow: 4,
+              }
+            },
+            {
+                breakpoint: 767,
+                settings: {
+                  slidesToShow: 3,
+                }
+            },
+            {
+              breakpoint: 350,
+              settings: {
+                slidesToShow: 1,
+              }
+            },
+        ]
+    })
+    $('.tech-list .tech-slide-left').slick({
+        slidesToShow: 6,
+        centerMode: true,
+        infinite: true,
+        easing: 'linear',
+        dots: false,
+        button: false,
+        autoplay: true,
+        rtl: true,
+        speed: 1500,
+        autoplaySpeed: 1000,
+        responsive: [
+            {
+              breakpoint: 1024,
+              settings: {
+                slidesToShow: 4,
+              }
+            },
+            {
+                breakpoint: 767,
+                settings: {
+                  slidesToShow: 3,
+                }
+            },
+            {
+              breakpoint: 350,
+              settings: {
+                slidesToShow: 1,
+              }
+            },
+        ]
+    })
+})
+$(document).ready(function(){
     $('.products-slider > ul').slick({
         slidesToShow: 3,
         infinite: true,
@@ -28,12 +93,15 @@ $(document).ready(function(){
 
 $(document).ready(function(){
   $('.clients-testo-slider > ul').slick({
-      slidesToShow: 1,
+      slidesToShow: 3,
       infinite: true,
       slidesToScroll: 1,
-      dots: true,
+      dots: false,
       button: false,
+      centerMode: true,
+      centerPadding: '0px',
       autoplay: true,
+      speed: 2000,
       autoplaySpeed: 2000,
       responsive: [
           {

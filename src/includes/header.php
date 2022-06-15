@@ -9,13 +9,13 @@
         <link rel="stylesheet" href="./src/style/bootstrap.min.css"/>
         <link rel="stylesheet" href="./src/style/fontawesome.css"/>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;500;700;900&display=swap">
         <link rel="stylesheet" type="text/css" href="./src/style/slick.min.css"/>
         <link rel="stylesheet" type="text/css" href="./src/style/slick-theme.css"/>
         <link rel="stylesheet" href="./src/style/index.css"/>
         <link rel="stylesheet" href="./src/style/responsive.css"/>
         <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-        <title>Shoreditech</title>
+        <title>Shoreditchtech</title>
     </head>
     <body>
         <header>
@@ -24,7 +24,7 @@
                     <div class="col-md-12 px-0">
                         <nav class="navbar navbar-expand-lg navbar-light d-flex justify-content-between">
                             <div class="logo-block">
-                                <a class="navbar-brand" href="#">Shoreditech</a>
+                                <a class="navbar-brand" href="./">Shoreditch</a>
                             </div>   
                             <div class="nav-links-block">
                                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
