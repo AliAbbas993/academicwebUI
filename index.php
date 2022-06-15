@@ -121,7 +121,7 @@
                         </div>
                         <div class="form-row">
                             <div class="col-md-6">
-                                <input type="text" class="form-control" placeholder="Country" />
+                                <select class="form-control w-100" id="countries" name="countries" onselect="getCountries(e)"></select>
                             </div>
                             <div class="col-md-6">
                                 <input type="text" class="form-control" placeholder="City" />
