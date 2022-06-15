@@ -123,7 +123,7 @@ $(document).ready(function(){
 })
 
 document.addEventListener('DOMContentLoaded', () => {
-  const selectCountryDropdown = document.querySelector('#countries')
+  const selectCountryDropdown = document.querySelector('#country')
   fetch('https://restcountries.com/v2/all').then(res => {
     return res.json()
   })

@@ -102,41 +102,7 @@
                 </div>
                 <div class="col-12 col-md-8 form-block">
                     <h4 class="mb-4">Get started with us</h4>
-                    <form>
-                        <div class="form-row">
-                            <div class="col-md-6">
-                                <input type="text" class="form-control" placeholder="Full Name*">
-                            </div>
-                            <div class="col-md-6">
-                                <input type="password" class="form-control" placeholder="Email*">
-                            </div>
-                        </div>
-                        <div class="form-row">
-                            <div class="col-md-6">
-                                <input type="text" class="form-control" placeholder="Phone Number" />
-                            </div>
-                            <div class="col-md-6">
-                                <input type="password" class="form-control" placeholder="Budget" />
-                            </div>
-                        </div>
-                        <div class="form-row">
-                            <div class="col-md-6">
-                                <select class="form-control w-100" id="countries" name="countries" onselect="getCountries(e)"></select>
-                            </div>
-                            <div class="col-md-6">
-                                <input type="text" class="form-control" placeholder="City" />
-                            </div>
-                        </div>
-                        <div class="form-row">
-                            <div class="col-md-12">
-                                <textarea type="text" class="form-control" placeholder="Your Message..." rows="7" cols="12">
-                                </textarea>
-                            </div>
-                        </div>
-                        <div class="d-flex justify-content-end">
-                            <button type="submit" class="rfq-btn">Send request</button>
-                        </div>
-                    </form>
+                    <?php include './src/includes/contact-form.php'; ?>
                 </div>
             </div>
         </div>
