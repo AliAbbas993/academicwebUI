@@ -53,3 +53,24 @@ $(document).ready(function(){
       ]
   })
 })
+
+document.addEventListener('DOMContentLoaded', () => {
+  const selectCountryDropdown = document.querySelector('#country')
+  fetch('https://restcountries.com/v2/all').then(res => {
+    return res.json()
+  })
+  .then(countriesList => {
+    let output = ""
+    countriesList.forEach(country => {
+      output += `<option value="${country.name}">${country.name}</option>`;
+    });
+    selectCountryDropdown.innerHTML = output
+  }).catch(error => {
+    console.log(error)
+  })
+})
+
+function getCountries(e){
+  console.log(e)
+  // https://countriesnow.space/api/v0.1/countries/cities
+}

@@ -182,10 +182,10 @@
     </div>
     <div class="form-row">
         <div class="col-md-6">
-            <input type="text" class="form-control" placeholder="Country" />
+            <select class="form-control w-100" id="country" name="country" onselect="getCountries(e)" value="<?php echo htmlspecialchars($country); ?>"></select>
         </div>
         <div class="col-md-6">
-            <input type="text" class="form-control" placeholder="City" />
+            <input type="text" class="form-control" placeholder="City" id="city" name="city" value="<?php echo htmlspecialchars($city); ?>"/>
         </div>
     </div>
     <div class="form-row">
