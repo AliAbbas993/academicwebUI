@@ -102,10 +102,11 @@
                 </div>
                 <div class="col-12 col-md-8 form-block">
                     <h4 class="mb-4">Get started with us</h4>
-                    <?php include './src/includes/contact-form.php'; ?>
+                    <?php include 'src/includes/contact-form.php'; ?>
                 </div>
             </div>
         </div>
     </div>
 </section>
-<?php include'./src/includes/footer.php'?>
+
+<?php include'src/includes/footer.php'?>

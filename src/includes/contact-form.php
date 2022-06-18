@@ -1,10 +1,10 @@
 <?php
-    // require './vendor/autoload.php';
-    // use PHPMailer\PHPMailer\PHPMailer;
-    // use PHPMailer\PHPMailer\Exception;
-    // use PHPMailer\PHPMailer\SMTP;
+    require './vendor/autoload.php';
+    use PHPMailer\PHPMailer\PHPMailer;
+    use PHPMailer\PHPMailer\Exception;
+    use PHPMailer\PHPMailer\SMTP;
 
-    include_once 'db-connection.php';
+    include 'db-connection.php';
     // session_start();
 
     function send_mail(){
