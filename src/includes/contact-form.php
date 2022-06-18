@@ -1,42 +1,6 @@
 <?php
-    // require './vendor/autoload.php';
-    // use PHPMailer\PHPMailer\PHPMailer;
-    // use PHPMailer\PHPMailer\Exception;
-    // use PHPMailer\PHPMailer\SMTP;
+    include_once './db-connection.php';
 
-    include_once 'db-connection.php';
-    // session_start();
-
-    function send_mail(){
-        //Instantiation and passing `true` enables exceptions
-        $mail = new PHPMailer(true);
-        try {
-            //Server settings                 //Enable verbose debug output
-            $mail->isSMTP();                                            //Send using SMTP
-            $mail->Host       = 'mail.dls-global.com';                     //Set the SMTP server to send through
-            $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
-            $mail->Username   = 'info@dls-global.com';                     //SMTP username
-            $mail->Password   = 'Digitallandscape100';                               //SMTP password
-            $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;         //Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` encouraged
-            $mail->Port       = 465;                                    //TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above
-        
-            //Recipients
-            $mail->setFrom('info@dls-global.com', 'Contact Form Entry');
-            $mail->addAddress('info@dls-global.com', 'Contact Form Entry');     //Add a recipient
-        
-        
-            //Content
-            $mail->isHTML(true);                                  //Set email format to HTML
-            $mail->Subject = $_POST['name'] . " Contacted Digital Landscape (Pvt.) Ltd.";
-            $mail->Body    = "Hello Admin, " . $_POST['name'] . " recently contacted us. Following are the details submitted by " . $_POST['name'] . "." . "\r\n" .
-            "Name: " . $_POST['name'] . "\r\n" . "Email Address: " . $_POST['email'] . "\r\n" . "Company: " . $_POST['company'] . "\r\n" .
-            "Phone Number: " . $_POST['phone'] . "\r\n" . "Reference: " . $_POST['reference'] . "\r\n" . "Message: " . $_POST['msg'];
-        
-            $mail->send();
-        } catch (Exception $e) {
-            echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
-        }
-    }
     function validate_phone_number($phone)
     {
         $filtered_phone_number = filter_var($phone, FILTER_SANITIZE_NUMBER_INT);
@@ -102,7 +66,6 @@
                     $result = mysqli_query($con, $insert_query);
                     if ($result){
                         $_SESSION['success'] = "Thank You for Contacting Us.. Your Message Has Been Submitted Successfully";
-                        // send_mail();
                         $name = '';
                         $email = '';
                         $phone = '';
@@ -118,7 +81,6 @@
                 $result = mysqli_query($con, $insert_query);
                 if ($result){
                     $_SESSION['success'] = "Thank You for Contacting Us.. Your Message Has Been Submitted Successfully";
-                    // send_mail();
                     $name = '';
                     $email = '';
                     $phone = '';
