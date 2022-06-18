@@ -1,5 +1,5 @@
 <div class="tech-list">
-    <ul class="list-unstyled d-flex flex-wrap justify-content-center align-items-center"> 
+    <ul class="tech-slide-right p-0"> 
         <li>
             <img src="./assets/media/technologies/1.webp" alt="">
         </li>   
@@ -38,7 +38,11 @@
         </li>
         <li>
             <img src="./assets/media/technologies/13.webp" alt="">
-        </li> 
+        </li>
+    </ul>
+</div>
+<div class="tech-list">
+    <ul class="tech-slide-left p-0"> 
         <li>
             <img src="./assets/media/technologies/14.webp" alt="">
         </li> 
@@ -84,6 +88,10 @@
         <li>
             <img src="./assets/media/technologies/28.webp" alt="">
         </li> 
+    </ul>
+</div>
+<div class="tech-list">
+    <ul class="tech-slide-right p-0"> 
         <li>
             <img src="./assets/media/technologies/29.webp" alt="">
         </li> 
@@ -113,7 +121,7 @@
         </li> 
         <li>
             <img src="./assets/media/technologies/38.webp" alt="">
-        </li> 
+        </li>
         <li>
             <img src="./assets/media/technologies/39.webp" alt="">
         </li> 

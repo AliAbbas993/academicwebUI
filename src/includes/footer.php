@@ -4,7 +4,7 @@
             <div class="col-md-12 d-flex flex-wrap justify-content-between px-0">
                 <div class="col-md-6 col-12 px-0">
                     <div class="foot-description-block">
-                        <h3 class="mb-3">SHOREDITCHTECH</h3>
+                        <h3 class="mb-3">SHOREDITCH TECH</h3>
                         <p class="pr-md-5">Based out of the UK. Providing software development services and support to clients all over the world.</p>
                         <p class="pr-md-5">We help our clients design, build, and launch innovative digital products that help them engage their customers and keep them ahead of their competitors in an ever-evolving operating landscape.</p>
                     </div>
@@ -18,8 +18,14 @@
                                     <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 30 24" class="mr-2">
                                         <path id="Icon_material-mail-outline" data-name="Icon material-mail-outline" d="M30,6H6A3,3,0,0,0,3.015,9L3,27a3.009,3.009,0,0,0,3,3H30a3.009,3.009,0,0,0,3-3V9A3.009,3.009,0,0,0,30,6Zm0,21H6V12l12,7.5L30,12ZM18,16.5,6,9H30Z" transform="translate(-3 -6)" fill="#fff"/>
                                     </svg>
-                                    info@dls-global.com
+                                    info@shoreditchtech.co.uk
                                 </a>
+                            </li>
+                            <li>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 28.502 28.504" class="mr-2">
+                                    <path id="Icon_feather-phone-call" data-name="Icon feather-phone-call" d="M29.167,22.305v3.914a2.613,2.613,0,0,1-2.85,2.61,25.9,25.9,0,0,1-11.282-4.006,25.468,25.468,0,0,1-7.844-7.829A25.79,25.79,0,0,1,3.178,5.682a2.612,2.612,0,0,1,2.6-2.844H9.7a2.613,2.613,0,0,1,2.615,2.244,16.727,16.727,0,0,0,.915,3.666,2.606,2.606,0,0,1-.588,2.753l-1.66,1.657a20.9,20.9,0,0,0,7.844,7.829l1.66-1.657a2.618,2.618,0,0,1,2.758-.587,16.812,16.812,0,0,0,3.673.913A2.611,2.611,0,0,1,29.167,22.305Z" transform="translate(-1.917 -1.587)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+                                </svg>
+                                +44 7393 815444
                             </li>
                             <li>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 28.502 28.504" class="mr-2">
@@ -34,6 +40,7 @@
                                 +92 213 4524405
                             </li>
                         </ul>
+                        <p class="address">86-90, Paul Street, London EC2A 4NE. United Kingdom</p>
                         <p class="address">26-A, Ground Floor, Manzar-e-Alam Road, N.K.C.H Society, Karachi, Pakistan</p>
                     </div>
                 </div>
@@ -44,7 +51,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <p class="text-center pt-3">© Digital Landscape Pvt Ltd 2022.</p>
+                    <p class="text-center pt-3">© Shoreditch Technology Pvt Ltd 2022.</p>
                 </div>
             </div>
         </div>
