@@ -1,4 +1,4 @@
-<footer>
+<footer id="footer">
     <?php include 'src/includes/newsletter-form.php'; ?>
     <div class="main-footer">
         <div class="container">

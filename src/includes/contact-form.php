@@ -1,5 +1,5 @@
 <?php
-    // include_once './db-connection.php';
+    include 'db-connection.php';
 
     function validate_phone_number($phone)
     {
