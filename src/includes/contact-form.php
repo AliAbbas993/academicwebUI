@@ -110,18 +110,18 @@
         </button>
         </div>
 <?php } ?>
-<form method="POST" action="index.php#contact-us">
+<form id="contact-form" method="POST" action="index.php#contact-us">
     <div class="form-row">
-        <div class="col-md-6">
-            <input type="text" class="form-control" placeholder="Full Name*" id="name" name="name" value="<?php echo htmlspecialchars($name); ?>">
+        <div class="col-md-6 position-relative">
+            <input type="text" class="form-control" placeholder="Full Name*" id="name" name="name" required value="<?php echo htmlspecialchars($name); ?>">
             <?php if($name_error){?>
                 <div class="error">
                     <span><?php echo $name_error; ?></span>
                 </div>
             <?php } ?>
         </div>
-        <div class="col-md-6">
-            <input type="email" class="form-control" placeholder="Email*" id="email" aria-describedby="emailHelp" name="email" value="<?php echo htmlspecialchars($email); ?>">
+        <div class="col-md-6 position-relative">
+            <input type="email" class="form-control" placeholder="Email*" id="email" aria-describedby="emailHelp" name="email" required value="<?php echo htmlspecialchars($email); ?>">
             <?php if($email_error){?>
                 <div class="error">
                     <span><?php echo $email_error; ?></span>
@@ -130,29 +130,29 @@
         </div>
     </div>
     <div class="form-row">
-        <div class="col-md-6">
-            <input type="tel" class="form-control" placeholder="Phone Number" id="phone" name="phone" value="<?php echo htmlspecialchars($phone); ?>"/>
+        <div class="col-md-6 position-relative">
+            <input type="tel" class="form-control" placeholder="Phone Number" id="phone" name="phone" required value="<?php echo htmlspecialchars($phone); ?>"/>
             <?php if($phone_error){?>
                 <div class="error">
                     <span><?php echo $phone_error; ?></span>
                 </div>
             <?php } ?>
         </div>
-        <div class="col-md-6">
-            <input type="number" class="form-control" placeholder="Budget" id="budget" name="budget" value="<?php echo htmlspecialchars($budget); ?>"/>
+        <div class="col-md-6 position-relative">
+            <input type="number" class="form-control" placeholder="Budget" id="budget" name="budget" required value="<?php echo htmlspecialchars($budget); ?>"/>
         </div>
     </div>
     <div class="form-row">
-        <div class="col-md-6">
-            <select class="form-control w-100" id="country" name="country" onselect="getCountries(e)" value="<?php echo htmlspecialchars($country); ?>"></select>
+        <div class="col-md-6 position-relative">
+            <select class="form-control w-100" id="country" name="country*" onselect="getCountries(e)" value="<?php echo htmlspecialchars($country); ?>"></select>
         </div>
-        <div class="col-md-6">
-            <input type="text" class="form-control" placeholder="City" id="city" name="city" value="<?php echo htmlspecialchars($city); ?>"/>
+        <div class="col-md-6 position-relative">
+            <input type="text" class="form-control" placeholder="City*" id="city" name="city" required value="<?php echo htmlspecialchars($city); ?>"/>
         </div>
     </div>
     <div class="form-row">
-        <div class="col-md-12">
-            <textarea class="form-control" placeholder="Your Message..." rows="7" cols="12" id="msg" name="msg" value="<?php echo htmlspecialchars($msg); ?>"></textarea>
+        <div class="col-md-12 position-relative">
+            <textarea class="form-control" placeholder="Your Message..." rows="7" cols="12" id="msg" required name="msg" value="<?php echo htmlspecialchars($msg); ?>"></textarea>
         </div>
     </div>
     <div class="d-flex justify-content-end">

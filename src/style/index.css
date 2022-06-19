@@ -819,6 +819,13 @@ footer .main-footer .footer-social-icons ul li span{
 .contact-sec .form-block .form-control::placeholder {
     color: var(--primary-blue);
 }
+.contact-sec .form-block label.error{
+    color: #ff0000;
+    font-size: 13px;
+    position: absolute;
+    bottom: 5px;
+    margin: 0;
+}
 .contact-sec .form-block .rfq-btn {
     background-color: #FFFFFF;
     border: 2px solid var(--primary-blue);

@@ -155,3 +155,7 @@ function getCountries(e){
   console.log(e)
   // https://countriesnow.space/api/v0.1/countries/cities
 }
+
+$(document).ready(function(){
+  $('#contact-form').validate();
+})
