@@ -48,6 +48,15 @@
     .banner-form-sec .price-calculator{
         margin-bottom: 50px;
     }
+    .services-sec ul li{
+        width: 45%;
+    }
+    .services-sec .card .card-body{
+        padding: 10px 15px;
+    }
+    .services-sec .card .card-body .service-content{
+        padding: 25px 15px;
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -72,10 +81,48 @@
     footer .main-footer .foot-links-block p {
         padding-left: 0 !important;
     }
+    .about-us-sec .content-block .about-us-title-content h1{
+        font-size: 30px!important;
+    }
+    .clients-sec .content-block .clients-list ul li{
+        width: 50%;
+    }
+    .services-sec ul li{
+        width: 100%;
+    }
+    .services-sec .card .card-body{
+        padding: 10px;
+    }
 }
 
 @media screen and (max-width: 500px) {
+    .clients-sec .content-block .clients-list ul li{
+        width: 100%;
+    }
     .about-us-sec .content-block h1 {
         font-size: 50px;
+    }
+    .services-sec .card .card-body .service-content{
+        padding: 25px;
+        bottom: -20px;
+        width: calc(100% - 50px);
+    }
+    .clients-testo-sec .content-block .clients-testo-slider ul li .testo-content{
+        min-width: 100%;
+        max-width: 100%;
+    }
+    .contact-sec{
+        margin: 30px 0 !important;
+    }
+    .tech-sec .content-block .our-impact-categories{
+        padding: 30px 0 !important;
+    }
+    .newsletter-form-block{
+        right: 15px;
+        left: 15px;
+    }
+    .newsletter-form-block .newsletter-form form .form-group{
+        width: 100%;
+        margin-bottom: 10px;
     }
 }

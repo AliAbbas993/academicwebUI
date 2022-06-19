@@ -36,19 +36,19 @@
                                             <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="https://dls-global.com/" target="_blank">Company</a>
+                                            <a class="nav-link" href="construction.php" target="_blank">Company</a>
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link" href="our-services.php">Services</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#products">Work</a>
+                                            <a class="nav-link" href="index.php#products">Work</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="https://www.dls-global.com/career" target="_blank">Careers</a>
+                                            <a class="nav-link" href="construction.php" target="_blank">Careers</a>
                                         </li>
                                         <li class="nav-item">  
-                                            <a class="nav-link" href="#contact-us">Contact Us</a>
+                                            <a class="nav-link" href="index.php#contact-us">Contact Us</a>
                                         </li>
                                     </ul>
                                 </div>

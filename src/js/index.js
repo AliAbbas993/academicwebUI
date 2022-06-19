@@ -17,13 +17,19 @@ $(document).ready(function(){
               }
             },
             {
+              breakpoint: 991,
+              settings: {
+                slidesToShow: 3,
+              }
+            },
+            {
                 breakpoint: 767,
                 settings: {
-                  slidesToShow: 3,
+                  slidesToShow: 2,
                 }
             },
             {
-              breakpoint: 350,
+              breakpoint: 450,
               settings: {
                 slidesToShow: 1,
               }
@@ -49,13 +55,19 @@ $(document).ready(function(){
               }
             },
             {
+              breakpoint: 991,
+              settings: {
+                slidesToShow: 3,
+              }
+            },
+            {
                 breakpoint: 767,
                 settings: {
-                  slidesToShow: 3,
+                  slidesToShow: 2,
                 }
             },
             {
-              breakpoint: 350,
+              breakpoint: 450,
               settings: {
                 slidesToShow: 1,
               }
@@ -97,6 +109,7 @@ $(document).ready(function(){
       infinite: true,
       slidesToScroll: 1,
       dots: false,
+      arrow: false,
       button: false,
       centerMode: true,
       centerPadding: '0px',
@@ -142,3 +155,7 @@ function getCountries(e){
   console.log(e)
   // https://countriesnow.space/api/v0.1/countries/cities
 }
+
+$(document).ready(function(){
+  $('#contact-form').validate();
+})
