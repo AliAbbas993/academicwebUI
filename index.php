@@ -14,7 +14,7 @@
                             <a href="./" target="_blank" class="link-blue">Learn more</a>
                         </button>
                     </div>
-                    <lottie-player src="https://assets4.lottiefiles.com/packages/lf20_xmt2vgt4.json" background="transparent" speed="1" loop autoplay></lottie-player>
+                    <lottie-player src="./src/js/banner.json" background="transparent" speed="1" loop autoplay></lottie-player>
                     <h4>Digitize your business today and start growing!</h4>
                     <p class="py-3">"Shoreditch Technology is an agile start-up technology company. A fast-growing, energetic digital company that specializes in Digital Transformation, Business Consultancy & Advisory Services. Shoreditch Technology helps their client to design, build, and launch innovative digital products that help them engage their customers and keep them ahead of their competitors in an ever-evolving operating landscape."</p>
                     <span>- Qaiser Sajid (CEO), Shoreditch Tech</span>
@@ -87,25 +87,5 @@
         </div>
     </div>
 </section>
-<section id="contact-us">
-    <div class="container-fluid">
-        <div class="contact-sec m-5">
-            <div class="row mx-0">
-                <div class="col-12 col-md-4 content-block">
-                    <h4 class="text-center mb-4">what we'll do next</h4>
-                    <ul>
-                        <li>our team will contact you within one business day</li>
-                        <li>we will engage on initial discussion to understand your requirements</li>
-                        <li>our team of analysts and developers will assess the scope and propose a way forward with mutual consultation</li>
-                        <li>all information exchange is protected via a mutual NDA</li>
-                    </ul>
-                </div>
-                <div class="col-12 col-md-8 form-block">
-                    <h4 class="mb-4">Get started with us</h4>
-                    <?php include './src/includes/contact-form.php'; ?>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+<?php include './contact-us.php'?>
 <?php include './src/includes/footer.php'?>

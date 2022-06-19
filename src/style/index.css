@@ -713,3 +713,84 @@ footer .main-footer .foot-links-block .follow-links li a span:hover i{
     padding: 5px 20px;
 }
 /* Landing Page End */
+
+/* Our Services Detailed Page CSS Start */
+.services-details-sec {
+    color: var(--primary-blue);
+}
+.services-details-sec h1{
+    font-weight: 600;
+    letter-spacing: 0.43px;
+    line-height: 1.5;
+}
+.services-details-sec h3{
+    font-size: 22px;
+    letter-spacing: 0.43px;
+    line-height: 1.5;
+    padding-bottom: 15px;
+}
+.services-details-sec .card {
+    border: none;
+    height: 300px;
+}
+.services-details-sec .card .card-body .card-icon {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background: #2F2F2F;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+.services-details-sec .card .card-body .card-title {
+    font-size: 25px;
+}
+.services-details-sec .card .card-body .card-desc {
+    text-align: center;
+    max-width: 400px;
+    color: #242424;
+}
+.services-details-sec .eng-models-block h3 {
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+    margin: 15px auto;
+}
+.services-details-sec .eng-models-block p {
+    font-size: 20px;
+    text-align: center;
+    margin: 15px auto;
+    max-width: 700px;
+}
+.services-details-sec .eng-models-block ul li .eng-model {
+    position: relative;
+    margin: 100px 10px 0;
+    padding: 70px 25px 0;
+    border: 5px solid var(--primary-blue);
+    min-height: 350px;
+}
+.services-details-sec .eng-models-block ul li .eng-model .model-img-p{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    height: 140px;
+    position: absolute;
+    top: -100px;
+    left: calc(10% - 50px);
+    right: 0;
+    background: var(--primary-blue);
+}
+.services-details-sec .eng-models-block ul li .eng-model .model-desc {
+    max-width: 350px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+}
+.services-details-sec .eng-models-block ul li .eng-model .read-more-btn {
+    text-decoration: none;
+    border: 3px solid var(--primary-blue);
+    padding: 10px;
+}
+/* Our Services Detailed Page CSS End */
