@@ -1,10 +1,11 @@
 <footer>
+    <?php include 'src/includes/newsletter-form.php'; ?>
     <div class="main-footer">
         <div class="container">
             <div class="col-md-12 d-flex flex-wrap justify-content-between px-0">
                 <div class="col-md-6 col-12 px-0">
                     <div class="foot-description-block">
-                        <h3 class="mb-3">SHOREDITCH TECH</h3>
+                        <h3 class="mb-3">Shoreditch Tech</h3>
                         <p class="pr-md-5">Based out of the UK. Providing software development services and support to clients all over the world.</p>
                         <p class="pr-md-5">We help our clients design, build, and launch innovative digital products that help them engage their customers and keep them ahead of their competitors in an ever-evolving operating landscape.</p>
                     </div>
@@ -41,7 +42,23 @@
                             </li>
                         </ul>
                         <p class="address">86-90, Paul Street, London EC2A 4NE. United Kingdom</p>
-                        <p class="address">26-A, Ground Floor, Manzar-e-Alam Road, N.K.C.H Society, Karachi, Pakistan</p>
+                        <!-- <p class="address">26-A, Ground Floor, Manzar-e-Alam Road, N.K.C.H Society, Karachi, Pakistan</p> -->
+                        <div class="footer-social-icons">
+                            <ul class="list-unstyled m-0 d-flex flex-wrap justify-end">
+                                <li>
+                                    <span><img src="assets/media/footer/linkedin.svg" alt="icon"></span>
+                                </li>
+                                <li>
+                                    <span><img src="assets/media/footer/facebook.svg" alt="icon"></span>
+                                </li>
+                                <li>
+                                    <span><img src="assets/media/footer/twitter.svg" alt="icon"></span>
+                                </li>
+                                <li>
+                                    <span><img src="assets/media/footer/phone.svg" alt="icon"></span>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>

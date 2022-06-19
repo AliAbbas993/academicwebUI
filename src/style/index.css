@@ -46,6 +46,38 @@
     right: 0;
 }
 /* Header Style Start */
+.main-header .navbar .nav-links-block .navbar-toggler{
+    color: rgb(89 175 255);
+    border-color: rgb(92 181 254);
+    border: none;
+}
+.navbar-light .navbar-toggler-icon{
+    position: relative;
+    background-color: rgb(89 175 255);
+    border-radius: 50px;
+    height: 5px;
+    background-image: none;
+}
+.navbar-light .navbar-toggler-icon::before{
+    position: absolute;
+    content: '';
+    width: 50px;
+    left: 0;
+    height: 5px;
+    border-radius: 50px;
+    top: -15px;
+    background-color: #00AEFF;
+}
+.navbar-light .navbar-toggler-icon::after{
+    position: absolute;
+    content: '';
+    width: 50px;
+    left: 0;
+    height: 5px;
+    border-radius: 50px;
+    bottom: -15px;
+    background-color: #00AEFF;
+}
 .main-header .logo-block a.navbar-brand{
     color: var(--primary-blue);
     text-transform: uppercase;
@@ -94,16 +126,72 @@
 /* Header Style End */
 
 /* Footer Style Start */
+footer{
+    position: relative;
+    padding-top: 250px;
+}
+.newsletter-form-block{
+    position: absolute;
+    min-height: 250px;
+    background: #00AEFF;
+    left: 30px;
+    right: 30px;
+    top: 30px;
+    text-align: center;
+    z-index: 99999999;
+    box-shadow: 0px 6px 12px #00000029;
+    padding: 30px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.newsletter-form-block .newsletter-content h3{
+    line-height: 1;
+    color: #eeeeee;
+    font-size: 28px;
+    margin: 0;
+}
+.newsletter-form-block .newsletter-content p{
+    font-size: 16px;
+    color: #ffffff;
+}
+.newsletter-form-block .newsletter-form form .form-group{
+    margin: 0 5px;
+}
+.newsletter-form-block .newsletter-form form input{
+    border: none;
+    border-radius: 0px;
+    background-color: #ffffff;
+    color: #00AEFF;
+    font-size: 16px;
+    height: 36px;
+    margin-right: 10px;
+    width: 300px;
+}
+.newsletter-form-block .newsletter-form form input::placeholder{
+    color: #00AEFF;
+}
+.newsletter-form-block .newsletter-form form button{
+    background-color: #ffffff;
+    color: #00AEFF;
+    height: 36px;
+    border: none;
+    border-radius: 0px;
+    font-size: 16px;
+    text-transform: capitalize;
+}
 footer .main-footer{
-    padding: 60px 0 30px;
+    padding: 90px 0 30px;
     background: var(--primary-blue);
+    box-shadow: 0px -10px 10px #d5d3d3;
 }
 footer .main-footer .foot-description-block{
     padding-right: 50px;
     letter-spacing: 0.9px;
 }
 footer .main-footer .foot-description-block h3{
-    text-transform: uppercase;
+    text-transform: capitalize;
     font-weight: 700;
     font-size: 24px;
     color: #ffffff;
@@ -140,11 +228,17 @@ footer .main-footer .foot-links-block ul{
 }
 footer .main-footer .foot-links-block ul li{
     margin: 5px 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+footer .main-footer .foot-links-block ul li svg{
+    width: 25px;
+    height: 25px;
 }
 footer .main-footer .foot-links-block ul li a{
     color: #ffffff;
-    font-size: 15px;
-    font-weight: 400;
+    font-size: 18px;
+    font-weight: 600;
     text-decoration: none;
 }
 footer .main-footer .foot-links-block p {
@@ -194,6 +288,22 @@ footer .main-footer .foot-links-block .follow-links li a span:hover{
 }
 footer .main-footer .foot-links-block .follow-links li a span:hover i{
     color: var(--primary-blue);
+}
+footer .main-footer .footer-social-icons ul{
+    justify-content: flex-end;
+}
+footer .main-footer .footer-social-icons ul li{
+    margin: 5px 10px;
+}
+footer .main-footer .footer-social-icons ul li span{
+    background-color: #ffffff;
+    box-shadow: 0 0 10px #89b3aa;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 /* Footer Style End */
 
@@ -610,6 +720,9 @@ footer .main-footer .foot-links-block .follow-links li a span:hover i{
 }
 
 /* Clients Testimonials Section */
+.clients-testo-sec .content-block .clients-testo-slider .slick-slider .slick-arrow{
+    display: none!important;
+}
 .clients-testo-sec .content-block .clients-testo-slider ul li.slick-slide{
     transform: scale(0.8);    
     transition: 0.5S all ease-in-out;
