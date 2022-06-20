@@ -1,8 +1,8 @@
-<?php include'./src/includes/header.php'?>
+<?php include './src/includes/header.php'?>
 <section class="about-us-sec">
     <div class="container">
         <div class="row">
-            <div class="col-md-12 my-4">
+            <div class="col-md-12">
                 <div class="content-block text-center">
                     <div class="about-us-title-content">
                         <h1>Shoreditch Technology</h1>

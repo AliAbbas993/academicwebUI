@@ -102,6 +102,9 @@
     align-items: center;
     line-height: 1;
 }
+.main-header .navbar-nav .nav-item .nav-link:hover{
+    font-weight: 600;
+}
 .main-header .navbar-nav .nav-item .nav-link::before{
     position: absolute;
     content: '';
@@ -528,10 +531,21 @@ footer .main-footer .footer-social-icons ul li span{
 .about-us-sec .content-block .about-us-title-content{
     display: inline-block;
     position: relative;
-    bottom: -50px;
+    /* bottom: -50px; */
+    background: #ffffff;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    right: 0;
+}
+.about-us-sec .content-block lottie-player{
+    position: relative;
+    /* top: -100px; */
+    padding-top: 60px;
 }
 .about-us-sec .content-block .about-us-title-content h1{
     color: var(--primary-blue);
+    font-weight: 600;
     font-size: 75px;
     text-shadow: 0px 8px 16px #0000001A;
 }
@@ -553,7 +567,7 @@ footer .main-footer .footer-social-icons ul li span{
 .about-us-sec .content-block h4{
     display: inline-block;
     width: 100%;
-    margin-top: 60px;
+    /* margin-top: 60px; */
     color: var(--primary-blue);
     font-size: 17px;
     text-shadow: 0px 8px 16px #0000001A;
@@ -571,7 +585,76 @@ footer .main-footer .footer-social-icons ul li span{
     font-size: 18px;
     letter-spacing: 1px;
 }
-
+.about-leader-sec{
+    margin-bottom: 50px;
+    display: inline-block;
+    width: 100%;
+}
+.about-leader-sec h3{
+    font-weight: 600;
+    font-size: 40px;
+    text-transform: lowercase;
+    text-align: center;
+    color: var(--primary-blue);
+    margin: 15px auto;
+}
+.about-leader-sec p{
+    max-width: 500px;
+    font-size: 16px;
+    color: var(--primary-blue);
+    text-align: center;
+    text-shadow: 0px 3px 6px #0000001A;
+    letter-spacing: 0.43px;
+    margin: 15px auto;
+}
+.about-leader-sec .leaders-thumb-block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-leader-sec .leaders-thumb-block .thumb-item{
+    text-align: center;
+}
+.about-leader-sec .leaders-thumb-block .thumb-item span.thumb-img{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    box-shadow: 0px 8px 12px #00000029;
+    border: 4px solid #00AEFF;
+    opacity: 1;
+    width: 250px;
+    height: 250px;
+    margin: 10px 30px;
+}
+.about-leader-sec .leaders-thumb-block .thumb-item span.thumb-img img{
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+    object-fit: fill;
+}
+.about-leader-sec .leaders-thumb-block .thumb-item h6{
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 0.67px;
+    color: #00AEFF;
+    text-shadow: 0px 2px 4px #00000029;
+    opacity: 1;
+    margin: 25px 0 10px 0;
+}
+.about-leader-sec .leaders-thumb-block .thumb-item .designation{
+    font-size: 16px;
+    letter-spacing: 0.67px;
+    color: #00AEFF;
+    text-shadow: 0px 2px 4px #00000029;
+    opacity: 1;
+}
+.about-leader-sec .leaders-thumb-block .thumb-item ul li{
+    display: inline-block;
+    margin: 5px;
+}
 /* Services Section */
 .services-sec ul li{
     width: 30%;
@@ -677,6 +760,7 @@ footer .main-footer .footer-social-icons ul li span{
     height: 220px;
     padding: 20px 10px;
     width: 300px;
+    object-fit: contain;
 }
 .products-sec .products-slider ul li .card .card-body .card-title {
     color: var(--primary-blue);
@@ -819,6 +903,10 @@ footer .main-footer .footer-social-icons ul li span{
 .contact-sec .form-block .form-control::placeholder {
     color: var(--primary-blue);
 }
+.contact-sec .form-block textarea{
+    min-height: 200px;
+    resize: none;
+} 
 .contact-sec .form-block label.error{
     color: #ff0000;
     font-size: 13px;
@@ -833,6 +921,48 @@ footer .main-footer .footer-social-icons ul li span{
     padding: 5px 20px;
 }
 /* Landing Page End */
+
+/* about page start */
+.about-page-sec{
+    margin-bottom: 50px;
+}
+.about-page-sec .about-us-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: var(--primary-blue);
+}
+.about-page-sec .about-us-content h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+.about-page-sec .about-us-content p{
+    font-size: 18px;
+    font-weight: 500;
+}
+.about-page-sec .about-animation lottie-player{
+    width: 100%;
+}
+.mission-vision-sec{
+    color: var(--primary-blue);
+    margin: 50px auto;
+}
+.mission-vision-sec .mission-vision-content{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.mission-vision-sec h3{
+    font-size: 44px;
+    font-weight: 700;
+}
+.mission-vision-sec p {
+    font-size: 16px;
+    font-weight: 500;
+}
+/* about page end */
 
 /* Our Services Detailed Page CSS Start */
 .services-details-sec {

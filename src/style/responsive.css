@@ -57,6 +57,9 @@
     .services-sec .card .card-body .service-content{
         padding: 25px 15px;
     }
+    .about-us-sec .content-block .about-us-title-content h1{
+        font-size: 50px;
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -93,9 +96,18 @@
     .services-sec .card .card-body{
         padding: 10px;
     }
+    .contact-sec .content-block{
+        box-shadow: none;
+    }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 550px) {
+    .about-us-sec .content-block .about-us-title-content{
+        position: relative;
+    }
+    .about-us-sec .content-block lottie-player{
+        padding: 0;
+    }
     .clients-sec .content-block .clients-list ul li{
         width: 100%;
     }
@@ -124,5 +136,26 @@
     .newsletter-form-block .newsletter-form form .form-group{
         width: 100%;
         margin-bottom: 10px;
+    }
+    .newsletter-form-block .newsletter-form form input{
+        width: 100%;
+    }
+    .services-sec .card .card-body{
+        padding: 10px 0;
+    }
+    footer .main-footer .footer-social-icons ul{
+        justify-content: center!important;
+    }
+}
+@media screen and (max-width: 450px){
+    .services-sec .card{
+        margin: 10px 0!important;
+    }
+    .services-sec .card .card-body .service-content{
+        padding: 20px 10px;
+        width: calc(100% - 30px);
+    }
+    .services-sec .card .card-body .service-content{
+        height: 60px;
     }
 }
