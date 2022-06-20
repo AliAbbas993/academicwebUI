@@ -125,7 +125,7 @@
                                 <p class="model-img-p my-3"><img src="./assets/media/icon1.png" alt="" class="model-img"/></p>
                                 <p class="model-name">Consulting Services</p>
                                 <p class="model-desc my-3">DL's consultants are ready to assist your company by developing a strategy that aligns with your technical and commercial business requirements in E-Commerce, ERP Systems, HRMS, FinTech, Healthcare, Search Engine Optimization, Data Analytics, Web and Mobile Engagement with your stakeholders. DL's Trusted Advisor Network expands the professional services offerings to provide assessments, strategic planning, consulting, and outcome-based engagements for clients to help drive transformation and optimization for business processes. Our consultants have broad experience and expertise in numerous business domains, technologies, and industries and can provide valuable insight to clients looking for a competitive edge in creating speed to value.</p>
-                                <a href="https://dls-global.com" target="_blank" class="read-more-btn">read more</a>
+                                <a href="construction.php" target="_blank" class="read-more-btn">read more</a>
                             </div>
                         </li>
                         <li>
@@ -133,7 +133,7 @@
                                 <p class="model-img-p my-3"><img src="./assets/media/icon2.png" alt="" class="model-img"/></p>
                                 <p class="model-name">Managed Team Extension</p>
                                 <p class="model-desc my-3">With the Team Extension Model, our developers become an integral part of your team during the entire project. We carefully select each team member based on the requirements and expertise you need. They immerse themselves in your project, maintaining your company culture and working in line with your strategic goals.</p>
-                                <a href="https://dls-global.com" target="_blank" class="read-more-btn">read more</a>
+                                <a href="construction.php" target="_blank" class="read-more-btn">read more</a>
                             </div>
                         </li>  
                         <li>
@@ -141,7 +141,7 @@
                                 <p class="model-img-p my-3"><img src="./assets/media/icon3.png" alt="" class="model-img"/></p>
                                 <p class="model-name">Agile Squad</p>
                                 <p class="model-desc my-3">No need to assign internal staff to build a project from scratch. With AgileSquads approach, short interactions guarantee that every step of yourproject is implemented on time. It is easy to hand over the requirements to a ready-to-go Agile Squad and check in with them periodically. Get a time and effort estimate for your requirements and let us assemble an Agile Squad, managed by an experienced Squad Lead, to develop products from scratch according to your time and budget.</p>
-                                <a href="https://dls-global.com" target="_blank" class="read-more-btn">read more</a>
+                                <a href="construction.php" target="_blank" class="read-more-btn">read more</a>
                             </div>
                         </li>                                                                              
                     </ul>
