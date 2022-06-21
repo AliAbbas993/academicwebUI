@@ -49,21 +49,12 @@
                 </div>
                 <div class="leaders-thumb-block">
                     <div class="thumb-item">
-                        <span class="thumb-img"><img src="assets/media/about/sirshahab.png" alt="leader"></span>
-                        <h6>Shahab Rizvi</h6>
-                        <span class="designation">Founder & Chairman</span>
-                        <ul class="list-unstyled m-0 d-flex flex-wrap justify-content-center align-items-center">
-                            <li><a href='https://www.linkedin.com'><img src="assets/media/footer/linkedin.svg" alt="icon"></a></li>
-                            <li><a href='https://www.twitter.com'><img src="assets/media/footer/twitter.svg" alt="icon"></a></li>
-                        </ul>
-                    </div>
-                    <div class="thumb-item">
                         <span class="thumb-img"><img src="assets/media/about/sirqaiser.jpg" alt="leader"></span>
                         <h6>Qaiser Rasheed</h6>
                         <span class="designation">CEO</span>
                         <ul class="list-unstyled m-0 d-flex flex-wrap justify-content-center align-items-center">
-                            <li><a href='https://www.linkedin.com'><img src="assets/media/footer/linkedin.svg" alt="icon"></a></li>
-                            <li><a href='https://www.twitter.com'><img src="assets/media/footer/twitter.svg" alt="icon"></a></li>
+                            <li><a href='https://www.linkedin.com/in/qaiserr/'><img src="assets/media/footer/linkedin.svg" alt="icon"></a></li>
+                            <!-- <li><a href='https://www.twitter.com'><img src="assets/media/footer/twitter.svg" alt="icon"></a></li> -->
                         </ul>
                     </div>
                 </div>

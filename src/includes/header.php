@@ -20,11 +20,11 @@
     <body>
         <header>
             <div class="main-header">
-                <div class="container px-0">
+                <div class="container-fluid px-lg-5">
                     <div class="col-md-12 px-0">
                         <nav class="navbar navbar-expand-lg navbar-light d-flex justify-content-between">
-                            <div class="logo-block">
-                                <a class="navbar-brand" href="./">Shoreditch</a>
+                            <div class="contact-icon d-none d-lg-block">  
+                                <a class="nav-link" href="index.php#contact-us">contact us</a>
                             </div>   
                             <div class="nav-links-block">
                                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,22 +36,25 @@
                                             <a class="nav-link" href="index.php">overview <span class="sr-only">(current)</span></a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="about-us.php" target="_blank">about</a>
+                                            <a class="nav-link" href="about-us.php">about us</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="our-services.php">Services</a>
+                                            <a class="nav-link" href="our-services.php">services</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="index.php#products">Work</a>
+                                            <a class="nav-link" href="index.php#products">work</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="construction.php" target="_blank">Careers</a>
+                                            <a class="nav-link" href="construction.php">careers</a>
                                         </li>
-                                        <li class="nav-item">  
-                                            <a class="nav-link" href="index.php#contact-us">Contact Us</a>
+                                        <li class="nav-item d-lg-none">  
+                                            <a class="nav-link" href="index.php#contact-us">contact Us</a>
                                         </li>
                                     </ul>
                                 </div>
+                            </div>
+                            <div class="logo-block">
+                                <a class="navbar-brand" href="./">Shoreditch</a>
                             </div>
                         </nav>
                     </div>

@@ -5,7 +5,7 @@
             <div class="col-md-12 d-flex flex-wrap justify-content-between px-0">
                 <div class="col-md-6 col-12 px-0">
                     <div class="foot-description-block">
-                        <h3 class="mb-3">Shoreditch Tech</h3>
+                        <h3 class="mb-3">Shoreditch Technology</h3>
                         <p class="pr-md-5">Based out of the UK. Providing software development services and support to clients all over the world.</p>
                         <p class="pr-md-5">We help our clients design, build, and launch innovative digital products that help them engage their customers and keep them ahead of their competitors in an ever-evolving operating landscape.</p>
                     </div>

@@ -46,6 +46,9 @@
     right: 0;
 }
 /* Header Style Start */
+.main-header .navbar{
+    flex-direction: row-reverse;
+}
 .main-header .navbar .nav-links-block .navbar-toggler{
     color: rgb(89 175 255);
     border-color: rgb(92 181 254);
@@ -87,6 +90,23 @@
 .main-header{
     /* background-color: var(--primary-blue); */
     padding: 20px 0;
+}
+.main-header .contact-icon{
+    border: 2px solid transparent;
+    transition: all 0.5s ease;
+}
+.main-header .contact-icon:hover{
+    border: 2px solid var(--primary-blue);
+    transition: all 0.5s ease;
+}
+.main-header .contact-icon .nav-link{
+    color: var(--primary-blue);
+    font-size: 16px;
+    text-decoration: none;
+    position: relative;
+    display: flex;
+    align-items: center;
+    line-height: 1;
 }
 .main-header .navbar-nav .nav-item{
     margin: 0 10px;
@@ -717,9 +737,9 @@ footer .main-footer .footer-social-icons ul li span{
 }
 .services-sec .card .card-body .service-content {
     background-color: #ffffff;
-    padding: 25px 30px;
+    padding: 25px 15px;
     box-shadow: 0px 6px 16px #00000029;
-    width: calc(100% - 100px);
+    width: calc(100% - 75px);
     margin: 0 auto;
     position: relative;
     bottom: -30px;
@@ -784,10 +804,17 @@ footer .main-footer .footer-social-icons ul li span{
 .tech-sec .content-block .our-impact-categories .impact-cat {
     border: 3px solid var(--primary-blue);
     color: var(--primary-blue);
-    text-shadow: 0px 3px 6px #00000029;
-    box-shadow: 0px 6px 12px #00000029;
+    /* text-shadow: 0px 3px 6px #00000029; */
+    box-shadow: 0px 6px 12px #72727229;
     padding: 25px 50px;
     width: 280px
+}
+.tech-sec .content-block .our-impact-categories .impact-cat h2{
+    font-weight: 900;
+}
+.tech-sec .content-block .our-impact-categories .impact-cat p{
+    font-size: 25px;
+    font-weight: 900;
 }
 
 /* Clients Section */
@@ -804,14 +831,20 @@ footer .main-footer .footer-social-icons ul li span{
 }
 
 /* Clients Testimonials Section */
+.clients-testo-sec .content-block .clients-testo-slider{
+    padding-top: 50px;
+}
 .clients-testo-sec .content-block .clients-testo-slider .slick-slider .slick-arrow{
     display: none!important;
 }
 .clients-testo-sec .content-block .clients-testo-slider ul li.slick-slide{
-    transform: scale(0.8);    
+    transform: scale(0.6);    
     transition: 0.5S all ease-in-out;
     opacity: .3;
 }
+/* .clients-testo-sec .content-block .clients-testo-slider ul li.slick-slide{
+
+} */
 .clients-testo-sec .content-block .clients-testo-slider ul li.slick-slide.slick-current.slick-active{
     transform: scale(1.0);
     transition: 0.5S all ease-in-out;
@@ -819,26 +852,27 @@ footer .main-footer .footer-social-icons ul li span{
 }
 .clients-testo-sec .content-block .clients-testo-slider ul li .testo-content {
     position: relative;
-    margin: 100px auto 15px;
-    padding: 100px 25px 25px;
+    margin: 50px auto 0;
+    padding: 50px 25px 25px;
     background: var(--primary-blue);
     font-weight: 400;
     font-size: 16px;
     color: #fff;
     letter-spacing: .1rem;
     line-height: 2;
-    min-width: 500px;
-    max-width: 500px;
+    /* min-width: 500px; */
+    max-width: 100%;
+    height: 250px;
 }
 .clients-testo-sec .content-block .clients-testo-slider ul li .testo-content p.testo-img-p {
     display: inline-block;
-    width: 150px;
-    height: 150px;
+    width: 80px;
+    height: 80px;
     border-radius: 100%;
     box-shadow: 0px -3px 6px #00000029;
     position: absolute;
-    top: -100px;
-    left: calc(50% - 80px);
+    top: -60px;
+    left: calc(50% - 50px);
     right: 0;
     background: #fff;
 }
@@ -848,14 +882,14 @@ footer .main-footer .footer-social-icons ul li span{
     border-radius: 100%;
 }
 .clients-testo-sec .content-block .clients-testo-slider ul li .testo-content p.testo-name {
-    font-size: 24px;
-    font-weight: 600;
+    font-size: 14px;
+    font-weight: 400;
     line-height: 1;
     margin: 0 0 15px;
     display: inline-block;
 }
-.clients-testo-sec .content-block .clients-testo-slider ul li .testo-content p.testo-designation, .clients-testo-sec .content-block .clients-testo-slider ul li .testo-content p.testo-desc {
-    font-size: 16px;
+.clients-testo-sec .content-block .clients-testo-slider ul li .testo-content p.testo-designation{
+    font-size: 12px;
     line-height: 1.5;
 }
 .clients-testo-sec .content-block .clients-testo-slider ul li .testo-content p.testo-desc {
@@ -863,6 +897,8 @@ footer .main-footer .footer-social-icons ul li span{
     display: -webkit-box;
     -webkit-line-clamp: 4;
     -webkit-box-orient: vertical;
+    font-size: 12px;
+    font-style: italic;
 }
 .clients-testo-sec .content-block .clients-testo-slider ul li .testo-content .more-btn {
     color: #FFFFFF;

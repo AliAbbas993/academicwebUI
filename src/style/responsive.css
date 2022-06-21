@@ -1,4 +1,8 @@
 @media screen and (max-width: 991px) {
+    .main-header .navbar{
+        flex-direction: initial;
+        padding: 10px 0;
+    }
     /* .main-header .logo-block{
         position: absolute;
     }
@@ -99,6 +103,9 @@
     .contact-sec .content-block{
         box-shadow: none;
     }
+    .clients-testo-sec .content-block .clients-testo-slider ul li .testo-content p.testo-desc{
+        font-size: 12px;
+    }
 }
 
 @media screen and (max-width: 550px) {
@@ -122,6 +129,7 @@
     .clients-testo-sec .content-block .clients-testo-slider ul li .testo-content{
         min-width: 100%;
         max-width: 100%;
+        padding: 50px 10px;
     }
     .contact-sec{
         margin: 30px 0 !important;
@@ -157,5 +165,22 @@
     }
     .services-sec .card .card-body .service-content{
         height: 60px;
+    }
+    .contact-sec .content-block{
+        padding: 25px 15px;
+    }
+    .contact-sec .content-block ul{
+        padding-left: 25px;
+    }
+    .contact-sec .form-block{
+        padding: 25px 10px;
+    }
+    .about-leader-sec .leaders-thumb-block .thumb-item span.thumb-img{
+        width: 230px;
+        height: 230px;
+        margin: 10px;
+    }
+    .newsletter-form-block{
+        padding: 20px 10px;
     }
 }

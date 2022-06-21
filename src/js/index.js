@@ -119,7 +119,7 @@ $(document).ready(function(){
       arrow: false,
       button: false,
       centerMode: true,
-      centerPadding: '0px',
+      centerPadding: '30px',
       autoplay: true,
       speed: 2000,
       autoplaySpeed: 2000,
@@ -129,6 +129,7 @@ $(document).ready(function(){
             settings: {
               slidesToShow: 1,
               slidesToScroll: 1,
+              centerPadding: '0px',
             }
           },
           {
@@ -136,6 +137,7 @@ $(document).ready(function(){
               settings: {
                 slidesToShow: 1,
                 slidesToScroll: 1,
+                centerPadding: '0px',
               }
           },
       ]

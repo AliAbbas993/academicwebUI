@@ -17,7 +17,7 @@
                     <lottie-player src="./src/js/banner.json" background="transparent" speed="1" loop autoplay></lottie-player>
                     <h4>Digitize your business today and start growing!</h4>
                     <p class="py-3">"Shoreditch Technology is an agile start-up technology company. A fast-growing, energetic digital company that specializes in Digital Transformation, Business Consultancy & Advisory Services. Shoreditch Technology helps their client to design, build, and launch innovative digital products that help them engage their customers and keep them ahead of their competitors in an ever-evolving operating landscape."</p>
-                    <span>- Qaiser Sajid (CEO), Shoreditch Tech</span>
+                    <span>- Qaiser Sajid (CEO), Shoreditch Technology</span>
                 </div>
             </div>
         </div>
