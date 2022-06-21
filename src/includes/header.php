@@ -44,9 +44,9 @@
                                         <li class="nav-item">
                                             <a class="nav-link" href="index.php#products">work</a>
                                         </li>
-                                        <li class="nav-item">
+                                        <!-- <li class="nav-item">
                                             <a class="nav-link" href="construction.php">careers</a>
-                                        </li>
+                                        </li> -->
                                         <li class="nav-item d-lg-none">  
                                             <a class="nav-link" href="index.php#contact-us">contact us</a>
                                         </li>
