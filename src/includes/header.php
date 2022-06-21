@@ -48,7 +48,7 @@
                                             <a class="nav-link" href="construction.php">careers</a>
                                         </li>
                                         <li class="nav-item d-lg-none">  
-                                            <a class="nav-link" href="index.php#contact-us">contact Us</a>
+                                            <a class="nav-link" href="index.php#contact-us">contact us</a>
                                         </li>
                                     </ul>
                                 </div>
