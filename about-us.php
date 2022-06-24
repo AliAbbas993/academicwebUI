@@ -22,11 +22,11 @@
                     <div class="mission-vision-content">
                         <div class="mission-content">
                             <h3>Our Mission</h3>
-                            <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            <p>Orient Software provides game-changing consulting and software services to clients around the globe. We attract and develop talent to become tech thought leaders by providing training and opportunities to work on large scale, cutting-edge projects. Our commitment to our clients is to offer best-of-breed services to grow their businesses.</p>
                         </div>
                         <div class="vision-content">
-                            <h3>Our vision</h3>
-                            <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            <h3>Our Vision</h3>
+                            <p>To be an internationally recognized corporation that leverages technology to provide innovative solutions, brought by first-class experts.</p>
                         </div>
                     </div>
                 </div>
@@ -44,13 +44,13 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="leaders-content">
-                    <h3>Our Leaders</h3>
-                    <p>duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                    <h3>Our Leader</h3>
+                    <!-- <p>duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p> -->
                 </div>
                 <div class="leaders-thumb-block">
                     <div class="thumb-item">
                         <span class="thumb-img"><img src="assets/media/about/sirqaiser.jpg" alt="leader"></span>
-                        <h6>Qaiser Rasheed</h6>
+                        <h6>Qaiser Rashid Sajid</h6>
                         <span class="designation">CEO</span>
                         <ul class="list-unstyled m-0 d-flex flex-wrap justify-content-center align-items-center">
                             <li><a href='https://www.linkedin.com/in/qaiserr/'><img src="assets/media/footer/linkedin.svg" alt="icon"></a></li>

@@ -100,6 +100,9 @@
     .services-sec .card .card-body{
         padding: 10px;
     }
+    .contact-sec{
+        margin: 0px 10px 50px !important;
+    }
     .contact-sec .content-block{
         box-shadow: none;
     }
@@ -130,6 +133,9 @@
         min-width: 100%;
         max-width: 100%;
         padding: 50px 10px;
+    }
+    #contact-us{
+        padding: 0 15px;
     }
     .contact-sec{
         margin: 30px 0 !important;

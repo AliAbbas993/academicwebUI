@@ -139,7 +139,14 @@
             <?php } ?>
         </div>
         <div class="col-md-6 position-relative">
-            <input type="number" class="form-control" placeholder="Budget" id="budget" name="budget" required value="<?php echo htmlspecialchars($budget); ?>"/>
+            <!-- <input type="number" class="form-control" placeholder="Budget" id="budget" name="budget" required value="<?php echo htmlspecialchars($budget); ?>"/> -->
+            <select name="budget" id="budget" class="form-control" required placeholder="budget">
+                <option value="20000">up to $20,000</option>
+                <option value="40000">$20,000 - $40,000</option>
+                <option value="60000">$40,000 - $60,000</option>
+                <option value="70000">$60,000+</option>
+                <option value="other">do not disclose</option>
+            </select>
         </div>
     </div>
     <div class="form-row">
@@ -153,6 +160,14 @@
     <div class="form-row">
         <div class="col-md-12 position-relative">
             <textarea class="form-control" placeholder="Your Message..." rows="7" cols="12" id="msg" required name="msg" value="<?php echo htmlspecialchars($msg); ?>"></textarea>
+        </div>
+    </div>
+    <div class="form-row">
+        <div class="col-md-6 position-relative">
+            <label for="nda" class="d-flex align-items-center justify-content-start m-0 nda-field">
+                <input type="checkbox" class="form-control m-0 d-inline-block" name="nda" id="nda">
+                <span class="ml-3">request NDA</span>
+            </label>
         </div>
     </div>
     <div class="d-flex justify-content-end">
