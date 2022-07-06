@@ -15,7 +15,7 @@
         <link rel="stylesheet" href="./src/style/index.css"/>
         <link rel="stylesheet" href="./src/style/responsive.css"/>
         <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-        <title>Shoreditchtech</title>
+        <title>Shoreditch Tech</title>
     </head>
     <body>
         <header>
@@ -54,7 +54,7 @@
                                 </div>
                             </div>
                             <div class="logo-block">
-                                <a class="navbar-brand" href="./">Shoreditch</a>
+                                <a class="navbar-brand" href="./">Shoreditch tech</a>
                             </div>
                         </nav>
                     </div>

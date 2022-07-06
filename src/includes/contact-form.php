@@ -1,5 +1,5 @@
 <?php
-    include 'db-connection.php';
+    include '/src/includes/db-connection.php';
 
     function validate_phone_number($phone)
     {
@@ -19,14 +19,14 @@
 
     $name = '';
     $email = '';
-    $phone = '';
+    // $phone = '';
     $budget = '';
-    $country = '';
-    $city = '';
+    // $country = '';
+    // $city = '';
     $msg = '';
     $name_error = '';
     $email_error = '';
-    $phone_error = '';
+    // $phone_error = '';
     $budget_error = '';
     $_SESSION['success'] = '';
     $_SESSION['reject'] = '';
@@ -50,46 +50,46 @@
         else{
             $email = $_POST['email']; 
         }
-        $phone = $_POST['phone'];  
+        // $phone = $_POST['phone'];  
         $budget = $_POST['budget'];
-        $country = $_POST['country'];
-        $city = $_POST['city'];
+        // $country = $_POST['country'];
+        // $city = $_POST['city'];
         $msg = $_POST['msg'];
 
         if(!empty($name) && !empty($email)){
-            if(!empty($phone)){
-                if(!preg_match("/^[0-9]{11,15}$/", $phone)){
-                    $phone_error = 'Please enter valid phone number';
-                }
-                else{
+            // if(!empty($phone)){
+                // if(!preg_match("/^[0-9]{11,15}$/", $phone)){
+                //     $phone_error = 'Please enter valid phone number';
+                // }
+                // else{
                     $insert_query = "INSERT INTO contactus (name, email, phone, budget, country, city, msg) VALUES ('$name', '$email', '$phone', '$budget', '$country', '$city', '$msg');";
                     $result = mysqli_query($con, $insert_query);
                     if ($result){
                         $_SESSION['success'] = "Thank You for Contacting Us.. Your Message Has Been Submitted Successfully";
                         $name = '';
                         $email = '';
-                        $phone = '';
+                        // $phone = '';
                         $budget = '';
-                        $country = '';
-                        $city = '';
+                        // $country = '';
+                        // $city = '';
                         $msg = '';
                     }
-                }
-            }
-            else{
-                $insert_query = "INSERT INTO contactus (name, email, phone, budget, country, city, msg) VALUES ('$name', '$email', '$phone', '$budget', '$country', '$city', '$msg');";
+                // }
+            // }
+            // else{
+                $insert_query = "INSERT INTO contactus (name, email, budget, msg) VALUES ('$name', '$email', '$budget', '$msg');";
                 $result = mysqli_query($con, $insert_query);
                 if ($result){
                     $_SESSION['success'] = "Thank You for Contacting Us.. Your Message Has Been Submitted Successfully";
                     $name = '';
                     $email = '';
-                    $phone = '';
+                    // $phone = '';
                     $budget = '';
-                    $country = '';
-                    $city = '';
+                    // $country = '';
+                    // $city = '';
                     $msg = '';
                 }    
-            }
+            // }
         }
     }
 ?>
@@ -130,17 +130,17 @@
         </div>
     </div>
     <div class="form-row">
-        <div class="col-md-6 position-relative">
-            <input type="tel" class="form-control" placeholder="Phone Number" id="phone" name="phone" required value="<?php echo htmlspecialchars($phone); ?>"/>
-            <?php if($phone_error){?>
+        <!-- <div class="col-md-6 position-relative">
+            <input type="tel" class="form-control" placeholder="Phone Number" id="phone" name="phone" required value="<?php //echo htmlspecialchars($phone); ?>"/>
+            <?php //if($phone_error){?>
                 <div class="error">
-                    <span><?php echo $phone_error; ?></span>
+                    <span><?php //echo $phone_error; ?></span>
                 </div>
-            <?php } ?>
-        </div>
+            <?php //} ?>
+        </div> -->
         <div class="col-md-6 position-relative">
-            <!-- <input type="number" class="form-control" placeholder="Budget" id="budget" name="budget" required value="<?php echo htmlspecialchars($budget); ?>"/> -->
-            <select name="budget" id="budget" class="form-control" required placeholder="budget">
+            <!-- <input type="number" class="form-control" placeholder="Budget" id="budget" name="budget" required value="<?php //echo htmlspecialchars($budget); ?>"/> -->
+            <select name="budget" id="budget" class="form-control" required placeholder="budget" value="<?php echo htmlspecialchars($budget); ?>">
                 <option value="20000">up to $20,000</option>
                 <option value="40000">$20,000 - $40,000</option>
                 <option value="60000">$40,000 - $60,000</option>
@@ -149,14 +149,14 @@
             </select>
         </div>
     </div>
-    <div class="form-row">
+    <!-- <div class="form-row">
         <div class="col-md-6 position-relative">
-            <select class="form-control w-100" id="country" name="country*" onselect="getCountries(e)" value="<?php echo htmlspecialchars($country); ?>"></select>
+            <select class="form-control w-100" id="country" name="country*" onselect="getCountries(e)" value="<?php //echo htmlspecialchars($country); ?>"></select>
         </div>
         <div class="col-md-6 position-relative">
-            <input type="text" class="form-control" placeholder="City*" id="city" name="city" required value="<?php echo htmlspecialchars($city); ?>"/>
+            <input type="text" class="form-control" placeholder="City*" id="city" name="city" required value="<?php //echo htmlspecialchars($city); ?>"/>
         </div>
-    </div>
+    </div> -->
     <div class="form-row">
         <div class="col-md-12 position-relative">
             <textarea class="form-control" placeholder="Your Message..." rows="7" cols="12" id="msg" required name="msg" value="<?php echo htmlspecialchars($msg); ?>"></textarea>
