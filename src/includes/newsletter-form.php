@@ -16,14 +16,24 @@
         else{
             $email = $_POST['email']; 
         }
-        if(!empty($email)){
-            $insert_query = "INSERT INTO newsletter (email) VALUES ('$email');";
-            $result = mysqli_query($con, $insert_query);
-                if ($result){
-                    $_SESSION['success'] = "Thank You for subscribe";
-                    $email = '';
-                }    
-            }
+        // if(!empty($email)){
+        //     $insert_query = "INSERT INTO newsletter (email) VALUES ('$email');";
+        //     $result = mysqli_query($con, $insert_query);
+        //         if ($result){
+        //             $_SESSION['success'] = "Thank You for subscribe";
+        //             $email = '';
+        //         }    
+        //     }
+        echo "<script type='text/javascript'>
+            swal({
+                title: 'Congratulations!',
+                text: 'Your have successfully subscribe to our newsletter.',
+                icon: 'success',
+                button: 'Ok',
+                // timer: 2000
+            });
+        </script>";
+         $email = '';
         }
 ?>
 <?php
@@ -49,7 +59,7 @@
         <p>subscribe to our newsletter</p>
     </div>
     <div class="newsletter-form">
-        <form id="contact-form" method="POST" action="index.php#footer">
+        <form id="contact-form" method="POST" action="/">
             <div class="form-row">
                 <div class="form-group">
                     <input type="email" class="form-control" placeholder="your email*" id="email" aria-describedby="emailHelp" name="email" required value="<?php echo htmlspecialchars($email); ?>">                    

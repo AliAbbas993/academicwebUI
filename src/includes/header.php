@@ -15,6 +15,7 @@
         <link rel="stylesheet" href="./src/style/index.css"/>
         <link rel="stylesheet" href="./src/style/responsive.css"/>
         <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
         <title>Shoreditch Tech</title>
     </head>
     <body>
@@ -24,7 +25,7 @@
                     <div class="col-md-12 px-0">
                         <nav class="navbar navbar-expand-lg navbar-light d-flex justify-content-between">
                             <div class="contact-icon d-none d-lg-block">  
-                                <a class="nav-link" href="index.php#contact-us">contact us</a>
+                                <a class="nav-link" href="#contact-us">contact us</a>
                             </div>   
                             <div class="nav-links-block">
                                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -33,7 +34,7 @@
                                 <div class="collapse navbar-collapse" id="navbarNav">
                                     <ul class="navbar-nav">
                                         <li class="nav-item active">
-                                            <a class="nav-link" href="index.php">overview <span class="sr-only">(current)</span></a>
+                                            <a class="nav-link" href="/">overview <span class="sr-only">(current)</span></a>
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link" href="about-us.php">about us</a>
@@ -42,13 +43,13 @@
                                             <a class="nav-link" href="our-services.php">services</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="index.php#products">work</a>
+                                            <a class="nav-link" href="/#products">work</a>
                                         </li>
                                         <!-- <li class="nav-item">
                                             <a class="nav-link" href="construction.php">careers</a>
                                         </li> -->
                                         <li class="nav-item d-lg-none">  
-                                            <a class="nav-link" href="index.php#contact-us">contact us</a>
+                                            <a class="nav-link" href="/#contact-us">contact us</a>
                                         </li>
                                     </ul>
                                 </div>

@@ -1,16 +1,15 @@
 <?php
-    include '/src/includes/db-connection.php';
-
-    function validate_phone_number($phone)
-    {
-        $filtered_phone_number = filter_var($phone, FILTER_SANITIZE_NUMBER_INT);
-        $phone_to_check = str_replace("-", "", $filtered_phone_number);
-        if (strlen($phone_to_check) < 11 || strlen($phone_to_check) > 15) {
-            return false;
-        } else {
-        return true;
-        }
-    }
+    include ('/src/includes/db-connection.php');
+    // function validate_phone_number($phone)
+    // {
+    //     $filtered_phone_number = filter_var($phone, FILTER_SANITIZE_NUMBER_INT);
+    //     $phone_to_check = str_replace("-", "", $filtered_phone_number);
+    //     if (strlen($phone_to_check) < 11 || strlen($phone_to_check) > 15) {
+    //         return false;
+    //     } else {
+    //     return true;
+    //     }
+    // }
     function validate_budget($budget)
     {
         $filtered_budget = filter_var($budget, FILTER_SANITIZE_NUMBER_INT);
@@ -58,29 +57,39 @@
 
         if(!empty($name) && !empty($email)){
             // if(!empty($phone)){
-                // if(!preg_match("/^[0-9]{11,15}$/", $phone)){
-                //     $phone_error = 'Please enter valid phone number';
-                // }
-                // else{
-                    $insert_query = "INSERT INTO contactus (name, email, phone, budget, country, city, msg) VALUES ('$name', '$email', '$phone', '$budget', '$country', '$city', '$msg');";
-                    $result = mysqli_query($con, $insert_query);
-                    if ($result){
-                        $_SESSION['success'] = "Thank You for Contacting Us.. Your Message Has Been Submitted Successfully";
-                        $name = '';
-                        $email = '';
-                        // $phone = '';
-                        $budget = '';
-                        // $country = '';
-                        // $city = '';
-                        $msg = '';
-                    }
-                // }
+            //     if(!preg_match("/^[0-9]{11,15}$/", $phone)){
+            //         $phone_error = 'Please enter valid phone number';
+            //     }
+            //     else{
+            //         $insert_query = "INSERT INTO contactus (name, email, budget, msg) VALUES ('$name', '$email', '$budget', '$msg');";
+            //         $result = mysqli_query($con, $insert_query);
+            //         if ($result){
+            //             $_SESSION['success'] = "Thank You for Contacting Us.. Your Message Has Been Submitted Successfully";
+            //             $name = '';
+            //             $email = '';
+            //             // $phone = '';
+            //             $budget = '';
+            //             // $country = '';
+            //             // $city = '';
+            //             $msg = '';
+            //         }
+            //     }
             // }
             // else{
-                $insert_query = "INSERT INTO contactus (name, email, budget, msg) VALUES ('$name', '$email', '$budget', '$msg');";
-                $result = mysqli_query($con, $insert_query);
-                if ($result){
-                    $_SESSION['success'] = "Thank You for Contacting Us.. Your Message Has Been Submitted Successfully";
+            
+                echo "<script type='text/javascript'>
+                        swal({
+                            title: 'Congratulations!',
+                            text: 'Your message has been submitted successfully.',
+                            icon: 'success',
+                            button: 'Ok',
+                            // timer: 2000
+                        });
+                </script>";
+                // $insert_query = "INSERT INTO contactus (name, email, budget, msg) VALUES ('$name', '$email', '$budget', '$msg')";
+                // $result = mysqli_query($con, $insert_query);
+                // if ($result){
+                //     $_SESSION['success'] = "Thank You for Contacting Us.. Your Message Has Been Submitted Successfully";
                     $name = '';
                     $email = '';
                     // $phone = '';
@@ -88,7 +97,7 @@
                     // $country = '';
                     // $city = '';
                     $msg = '';
-                }    
+                // }
             // }
         }
     }
@@ -110,7 +119,7 @@
         </button>
         </div>
 <?php } ?>
-<form id="contact-form" method="POST" action="index.php#contact-us">
+<form id="contact-form" method="POST" action="/">
     <div class="form-row">
         <div class="col-md-6 position-relative">
             <input type="text" class="form-control" placeholder="Full Name*" id="name" name="name" required value="<?php echo htmlspecialchars($name); ?>">
@@ -140,7 +149,7 @@
         </div> -->
         <div class="col-md-6 position-relative">
             <!-- <input type="number" class="form-control" placeholder="Budget" id="budget" name="budget" required value="<?php //echo htmlspecialchars($budget); ?>"/> -->
-            <select name="budget" id="budget" class="form-control" required placeholder="budget" value="<?php echo htmlspecialchars($budget); ?>">
+            <select name="budget" id="budget" class="form-control" required placeholder="budget" onchange="<?php echo htmlspecialchars($budget); ?>">
                 <option value="20000">up to $20,000</option>
                 <option value="40000">$20,000 - $40,000</option>
                 <option value="60000">$40,000 - $60,000</option>
