@@ -1,5 +1,5 @@
 :root {
-    --primary-blue: #00AEFF;
+    --primary-blue: #1336e1;
     --primary-yellow: #f1ce20;
     --primary-grey: #3d3d3d;
     --primary-blue-light: #c0e0ffb9;
@@ -14,7 +14,7 @@
 .sec-title {
     font-weight: 600;
     font-size: 40px;
-    text-transform: lowercase;
+    text-transform: capitalize;
     text-align: center;
     color: var(--primary-blue);
     margin: 15px auto;
@@ -83,7 +83,7 @@
 }
 .main-header .logo-block a.navbar-brand{
     color: var(--primary-blue);
-    text-transform: uppercase;
+    text-transform: capitalize;
     font-weight: 700;
     font-size: 30px;
 }
@@ -107,6 +107,7 @@
     display: flex;
     align-items: center;
     line-height: 1;
+    text-transform: capitalize;
 }
 .main-header .navbar-nav .nav-item{
     margin: 0 10px;
@@ -121,6 +122,7 @@
     display: flex;
     align-items: center;
     line-height: 1;
+    text-transform: capitalize;
 }
 .main-header .navbar-nav .nav-item .nav-link:hover{
     font-weight: 600;
@@ -202,7 +204,7 @@ footer{
     border: none;
     border-radius: 0px;
     font-size: 16px;
-    text-transform: capitalize;
+    text-transform: capitalizee;
 }
 footer .main-footer{
     padding: 90px 0 30px;
@@ -214,7 +216,7 @@ footer .main-footer .foot-description-block{
     letter-spacing: 0.9px;
 }
 footer .main-footer .foot-description-block h3{
-    text-transform: capitalize;
+    text-transform: capitalizee;
     font-weight: 700;
     font-size: 24px;
     color: #ffffff;
@@ -242,7 +244,7 @@ footer .main-footer .foot-links-block {
 }
 footer .main-footer .foot-links-block h6{
     font-size: 22px;
-    text-transform: capitalize;
+    text-transform: capitalizee;
     position: relative;
     margin-bottom: 20px;
 }
@@ -274,7 +276,7 @@ footer .bottom-footer {
 footer .main-footer .foot-links-block .flags-block h6{
     color: #ffffff;
     font-size: 18px;
-    text-transform: capitalize;
+    text-transform: capitalizee;
     position: relative;
     margin-bottom: 10px;
     font-weight: 400;
@@ -342,7 +344,7 @@ footer .main-footer .footer-social-icons ul li span{
 .banner-form-sec .banner-content-block h1{
     color: #ffffff;
     font-weight: 700;
-    text-transform: uppercase;
+    text-transform: capitalize;
 }
 .banner-form-sec .banner-content-block p{
     font-size: 16px;
@@ -354,7 +356,7 @@ footer .main-footer .footer-social-icons ul li span{
 .btn-block button.btn-white{
     border-radius: 30px;
     padding: 10px 30px;
-    text-transform: uppercase;
+    text-transform: capitalize;
     background: #ffffff;
     color: var(--primary-blue);
     border: 2px solid #ffffff;
@@ -362,7 +364,7 @@ footer .main-footer .footer-social-icons ul li span{
 .btn-block button.btn-light-blue{
     border-radius: 30px;
     padding: 10px 30px;
-    text-transform: uppercase;
+    text-transform: capitalize;
     background: var(--primary-blue-light);
     color: var(--primary-blue);
     border: 2px solid var(--primary-blue-light);
@@ -370,7 +372,7 @@ footer .main-footer .footer-social-icons ul li span{
 .btn-block button.btn-light{
     border-radius: 30px;
     padding: 10px 30px;
-    text-transform: uppercase;
+    text-transform: capitalize;
     background: transparent;
     color: #ffffff;
     border: 2px solid #ffffff;
@@ -392,7 +394,7 @@ footer .main-footer .footer-social-icons ul li span{
     font-size: 24px;
     color: #ffffff;
     font-weight: 700;
-    text-transform: uppercase;
+    text-transform: capitalize;
     margin: 15px 0;
     text-align: center;    
 }
@@ -437,7 +439,7 @@ footer .main-footer .footer-social-icons ul li span{
 }
 .banner-form-sec .price-calculator .standard-price span{
     font-size: 20px;
-    text-transform: uppercase;
+    text-transform: capitalize;
     font-weight: 700;
     color: #adadad;
     text-decoration: line-through;
@@ -461,12 +463,12 @@ footer .main-footer .footer-social-icons ul li span{
 .banner-form-sec .price-calculator .subcribe-discount .saving-first-order p.content span{
     font-size: 14px;
     font-weight: 600;
-    text-transform: uppercase;
+    text-transform: capitalize;
     color: navy;    
 }
 .banner-form-sec .price-calculator .subcribe-discount .saving-first-order p.price span{
     font-size: 20px;
-    text-transform: uppercase;
+    text-transform: capitalize;
     font-weight: 700;
     color: #ffffff;
     text-decoration: line-through;
@@ -511,7 +513,7 @@ footer .main-footer .footer-social-icons ul li span{
     background-color: var(--primary-blue);
     color: #ffffff;
     font-weight: 600;
-    text-transform: uppercase;
+    text-transform: capitalize;
     text-align: center;
     font-size: 18px;
     padding: 10px;
@@ -533,7 +535,7 @@ footer .main-footer .footer-social-icons ul li span{
     border: 2px solid var(--primary-blue);
     border-radius: 30px;
     padding: 10px 30px;
-    text-transform: uppercase;
+    text-transform: capitalize;
 }
 .btn-block button.btn-light{
     background: transparent;
@@ -541,7 +543,7 @@ footer .main-footer .footer-social-icons ul li span{
     border: 2px solid var(--primary-blue);
     border-radius: 30px;
     padding: 10px 30px;
-    text-transform: uppercase;
+    text-transform: capitalize;
 }
 .about-us-sec, .services-sec, .products-sec , .what-we-sec{
     display: inline-block;
@@ -571,7 +573,7 @@ footer .main-footer .footer-social-icons ul li span{
 }
 .about-us-sec .content-block .about-us-title-content h3{
     font-weight: 700;
-    text-transform: capitalize;
+    text-transform: capitalizee;
     text-align: center;
     margin: 15px auto;
 }
@@ -613,7 +615,7 @@ footer .main-footer .footer-social-icons ul li span{
 .about-leader-sec h3{
     font-weight: 600;
     font-size: 40px;
-    text-transform: lowercase;
+    text-transform: capitalize;
     text-align: center;
     color: var(--primary-blue);
     margin: 15px auto;
@@ -657,7 +659,7 @@ footer .main-footer .footer-social-icons ul li span{
     font-size: 24px;
     font-weight: 600;
     text-align: center;
-    text-transform: capitalize;
+    text-transform: capitalizee;
     letter-spacing: 0.67px;
     color: #00AEFF;
     text-shadow: 0px 2px 4px #00000029;
@@ -684,7 +686,7 @@ footer .main-footer .footer-social-icons ul li span{
 .what-unique-sec h3{
     font-weight: 600;
     font-size: 40px;
-    text-transform: lowercase;
+    text-transform: capitalize;
     text-align: center;
     color: var(--primary-blue);
     margin: 15px auto;
@@ -707,7 +709,7 @@ footer .main-footer .footer-social-icons ul li span{
 .what-we-sec .what-we-title{
     font-weight: 600;
     font-size: 40px;
-    text-transform: lowercase;
+    text-transform: capitalize;
     text-align: center;
     color: var(--primary-blue);
     margin: 15px auto;
@@ -733,7 +735,7 @@ footer .main-footer .footer-social-icons ul li span{
     color: var(--primary-blue);
     font-weight: 600;
     font-size: 18px;
-    text-transform: lowercase;
+    text-transform: capitalize;
 }
 .what-we-sec .what-we-item p{
     font-weight: 300;
@@ -1038,7 +1040,7 @@ footer .main-footer .footer-social-icons ul li span{
     border-radius: 0;
     margin-bottom: 25px;
     height: 45px;
-    text-transform: lowercase;
+    text-transform: capitalize;
 }
 .nda-field{
 
