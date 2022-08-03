@@ -1,5 +1,5 @@
 <?php
-    include ('/src/includes/db-connection.php');
+    // include ('/src/includes/db-connection.php');
     // function validate_phone_number($phone)
     // {
     //     $filtered_phone_number = filter_var($phone, FILTER_SANITIZE_NUMBER_INT);

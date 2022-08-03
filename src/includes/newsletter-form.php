@@ -1,5 +1,5 @@
 <?php
-    include '/src/includes/db-connection.php';
+    // include '/src/includes/db-connection.php';
 
     $email = '';
     $email_error = '';
