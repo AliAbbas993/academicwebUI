@@ -1,8 +1,4 @@
 @media screen and (max-width: 991px) {
-    .main-header .navbar{
-        flex-direction: initial;
-        padding: 10px 0;
-    }
     /* .main-header .logo-block{
         position: absolute;
     }
@@ -23,19 +19,18 @@
         border-radius: 20px;
         background: #ffffff;
     } 
-    .main-header .nav-links-block .navbar-collapse.collapse.show, .main-header .nav-links-block .navbar-collapse.collapsing{
+    .main-header .nav-links-block .navbar-collapse.collapse.show , .main-header .nav-links-block .navbar-collapse.collapsing{
         position: absolute;
         width: 100%;
         right: 0;
         left: 0;
-        top: 75px;
+        top: 60px;
         box-shadow: 0 0 10px #ececec;
         justify-content: center;
         display: flex;
         padding: 10px;
         border-radius: 20px;
         background: #ffffff;
-        z-index: 1;
     }
     .main-header .navbar-nav{
         width: 100%;
@@ -46,23 +41,8 @@
         padding: 10px;
         margin: 0;
     }
-    .main-header .navbar-nav .nav-item .nav-link {
-        color: #3d3d3d;
-    }
     .banner-form-sec .price-calculator{
         margin-bottom: 50px;
-    }
-    .services-sec ul li{
-        width: 45%;
-    }
-    .services-sec .card .card-body{
-        padding: 10px 15px;
-    }
-    .services-sec .card .card-body .service-content{
-        padding: 25px 15px;
-    }
-    .about-us-sec .content-block .about-us-title-content h1{
-        font-size: 50px;
     }
 }
 
@@ -81,112 +61,5 @@
     }
     .paper-tab-sec .tabs-block .tabs-content-block{
         padding-left: 15px;
-    }
-    .main-footer .foot-links-block {
-        text-align: left !important;
-    }
-    footer .main-footer .foot-links-block p {
-        padding-left: 0 !important;
-    }
-    .about-us-sec .content-block .about-us-title-content h1{
-        font-size: 30px!important;
-    }
-    .clients-sec .content-block .clients-list ul li{
-        width: 50%;
-    }
-    .services-sec ul li{
-        width: 100%;
-    }
-    .services-sec .card .card-body{
-        padding: 10px;
-    }
-    .contact-sec{
-        margin: 0px 10px 50px !important;
-    }
-    .contact-sec .content-block{
-        box-shadow: none;
-    }
-    .clients-testo-sec .content-block .clients-testo-slider ul li .testo-content p.testo-desc{
-        font-size: 12px;
-    }
-}
-
-@media screen and (max-width: 550px) {
-    .about-us-sec .content-block .about-us-title-content{
-        position: relative;
-    }
-    .about-us-sec .content-block lottie-player{
-        padding: 0;
-    }
-    .clients-sec .content-block .clients-list ul li{
-        width: 100%;
-    }
-    .about-us-sec .content-block h1 {
-        font-size: 50px;
-    }
-    .services-sec .card .card-body .service-content{
-        padding: 25px;
-        bottom: -20px;
-        width: calc(100% - 50px);
-    }
-    .clients-testo-sec .content-block .clients-testo-slider ul li .testo-content{
-        min-width: 100%;
-        max-width: 100%;
-        padding: 50px 10px;
-    }
-    #contact-us{
-        padding: 0 15px;
-    }
-    .contact-sec{
-        margin: 30px 0 !important;
-    }
-    .tech-sec .content-block .our-impact-categories{
-        padding: 30px 0 !important;
-    }
-    .newsletter-form-block{
-        right: 15px;
-        left: 15px;
-    }
-    .newsletter-form-block .newsletter-form form .form-group{
-        width: 100%;
-        margin-bottom: 10px;
-    }
-    .newsletter-form-block .newsletter-form form input{
-        width: 100%;
-    }
-    .services-sec .card .card-body{
-        padding: 10px 0;
-    }
-    footer .main-footer .footer-social-icons ul{
-        justify-content: center!important;
-    }
-}
-@media screen and (max-width: 450px){
-    .services-sec .card{
-        margin: 10px 0!important;
-    }
-    .services-sec .card .card-body .service-content{
-        padding: 20px 10px;
-        width: calc(100% - 30px);
-    }
-    .services-sec .card .card-body .service-content{
-        height: 60px;
-    }
-    .contact-sec .content-block{
-        padding: 25px 15px;
-    }
-    .contact-sec .content-block ul{
-        padding-left: 25px;
-    }
-    .contact-sec .form-block{
-        padding: 25px 10px;
-    }
-    .about-leader-sec .leaders-thumb-block .thumb-item span.thumb-img{
-        width: 230px;
-        height: 230px;
-        margin: 10px;
-    }
-    .newsletter-form-block{
-        padding: 20px 10px;
     }
 }
