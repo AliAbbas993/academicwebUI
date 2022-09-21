@@ -1486,7 +1486,7 @@ footer .main-footer .foot-links-block .follow-links li a span:hover i {
 .order-banner-sec h1 {
     color: #ffffff;
     font-weight: 700;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     margin: 50px auto;
 }
 
@@ -1642,7 +1642,8 @@ footer .main-footer .foot-links-block .follow-links li a span:hover i {
     font-weight: 700;
 }
 .order-form-sec .side-card .total-cost {
-    background-color: #fdbb04;
+    /* background-color: #fdbb04; */
+    background-color: var(--primary-yellow);
     padding: 15px 25px;
     display: flex;
     justify-content: space-between;
@@ -1666,7 +1667,118 @@ footer .main-footer .foot-links-block .follow-links li a span:hover i {
 .order-form-sec .feature-content h5 {
     color: var(--primary-blue);
 }
-/* Order Policy Page End */
+/* Order Page End */
+
+/* Order Preview Page CSS Start */
+
+.order-preview-banner-sec {
+    padding: 70px 15px;
+    background: url('../../assets/media/step-banner.png');
+    background-size: cover;
+}
+
+.order-preview-banner-sec h1 {
+    color: #ffffff;
+    font-weight: 700;
+    /* text-transform: uppercase; */
+    margin: 50px auto;
+}
+
+.order-preview-sec {
+    padding: 50px 0;
+    display: inline-block;
+    width: 100%;
+}
+
+.order-preview-sec div.thank-you {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-blue);
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+.order-preview-sec .yellow-heading {
+    padding: 15px 35px;
+    background-color: var(--primary-yellow);
+    border-radius: 50px;
+    box-shadow: 0 0 15px #a7a7a7;
+    font-weight: 300;
+}
+
+.order-preview-sec div.blue-heading {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 35px;
+    background-color: var(--primary-blue);
+    border-radius: 50px;
+    box-shadow: 0 0 15px #a7a7a7;
+    color: #ffffff;
+}
+
+.order-preview-sec div.payment-details {
+    background-color: var(--primary-blue-light);
+    text-align: center;
+}
+
+.order-preview-sec .payment-details p.title {
+    background-color: var(--primary-yellow);
+    padding: 10px;
+    border-radius: 0 0 20px 20px;
+    box-shadow: 0 0 15px #a7a7a7;
+}
+
+.order-preview-sec .payment-details button {
+    text-transform: uppercase;
+    width: 40%;
+    box-shadow: 0 0 15px #a7a7a7;
+}
+
+.order-preview-sec .payment-details p.note {
+    color: red;
+}
+
+.order-preview-sec .side-card .rating {
+    background-color: var(--primary-blue);
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    border-radius: 10px 10px 0 0;
+}
+
+.order-preview-sec .side-card .rating p {
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+
+.order-preview-sec .side-card .rating img {
+    width: 40%;
+}
+
+.order-preview-sec .side-card p.rating-value {
+    color: var(--primary-blue);
+    text-align: center;
+    font-weight: 500;
+}
+
+.order-preview-sec .side-card div.payment-methods {
+    background-color: #ececec;
+    text-align: center;
+}
+
+.order-preview-sec .side-card .payment-methods p.blue-para {
+    background-color: var(--primary-blue);
+    color: #ffffff;
+    text-transform: capitalize;
+}
+
+.order-preview-sec .side-card .payment-methods p.yellow-para {
+    background-color: var(--primary-yellow);
+    text-transform: uppercase;
+    font-weight: 500;
+}
+/* Order Preview Page CSS End */
 
 /* Privacy Policy Page Start */
 .policy-banner-sec {
@@ -1678,7 +1790,7 @@ footer .main-footer .foot-links-block .follow-links li a span:hover i {
 .policy-banner-sec h1 {
     color: #ffffff;
     font-weight: 700;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     margin: 50px auto;
 }
 
@@ -1709,7 +1821,7 @@ footer .main-footer .foot-links-block .follow-links li a span:hover i {
 .terms-banner-sec h1 {
     color: #ffffff;
     font-weight: 700;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     margin: 50px auto;
 }
 
