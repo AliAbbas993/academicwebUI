@@ -9,7 +9,9 @@
                         <p><span>Get Flawless Writing at the Reasonable Prices</span></p>
                         <p>Order your first paper now and get a 50% discount!</p>
                         <div class="btn-block d-flex flex-wrap justify-content-start">
-                            <button class="btn btn-white my-3 mx-2">Order Now</button>
+                            <a href="order.php">
+                                <button class="btn btn-white my-3 mx-2">Order Now</button>
+                            </a>
                             <button class="btn btn-light my-3 mx-2">Live Chat</button>
                         </div>
                         <div class="banner-batch-block d-flex flex-wrap justify-content-start">
@@ -43,7 +45,9 @@
                             </div>
                         </div>
                         <div class="order-now">
-                            <button>Order Now</button>
+                            <a href="order.php">
+                                <button>Order Now</button>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -140,7 +144,9 @@
                     </div>
                 </div>
                 <div class="btn-block d-flex flex-wrap justify-content-center">
-                    <button class="btn btn-blue my-3 mx-2">Order Now</button>
+                    <a href="order.php">
+                        <button class="btn btn-blue my-3 mx-2">Order Now</button>
+                    </a>
                     <button class="btn btn-light my-3 mx-2">Live Chat</button>
                 </div>
             </div>

@@ -101,6 +101,10 @@
     transition: all 0.5s ease-in-out;
 }
 
+.main-header .navbar-nav .nav-item .btn-blue:hover {
+    text-decoration: none;
+    color: #ffffff;
+}
 /* Header Style End */
 
 /* Footer Style Start */
@@ -1692,6 +1696,7 @@ footer .main-footer .foot-links-block .follow-links li a span:hover i {
 
 .order-preview-sec div.thank-you {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     background-color: var(--primary-blue);
@@ -1841,3 +1846,86 @@ footer .main-footer .foot-links-block .follow-links li a span:hover i {
 }
 
 /* Terms and Conditions Page End */
+
+/*Contact Us Page Start */
+.contact-us-banner-sec {
+    padding: 70px 15px;
+    background: url('../../assets/media/step-banner.png');
+    background-size: cover;
+}
+
+.contact-us-banner-sec h1 {
+    color: #ffffff;
+    font-weight: 700;
+    /* text-transform: uppercase; */
+    margin: 50px auto;
+}
+
+.contact-us-sec .container {
+    border-radius: 10px;
+    box-shadow: 0 0 15px #a7a7a7;
+}
+
+.contact-us-sec .left-div{
+    height: 100%;
+    background: url('../../assets/media/blog-img.png');
+    background-size: cover;
+    border-radius: 10px 0 0 10px;
+
+}
+
+.contact-us-sec .contact-us-form input {
+    border-radius: 30px;
+}
+
+.contact-us-sec .contact-us-form textarea {
+    border-radius: 30px;
+}
+/* Contact Us Page End */
+
+/* Login Page Start */
+.login-banner-sec {
+    padding: 70px 15px;
+    background: url('../../assets/media/step-banner.png');
+    background-size: cover;
+}
+
+.login-banner-sec h1 {
+    color: #ffffff;
+    font-weight: 700;
+    /* text-transform: uppercase; */
+    margin: 50px auto;
+}
+
+.login-sec .login-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 25%;
+}
+
+.login-sec .login-form input {
+    border-radius: 30px;
+}
+
+.login-sec .login-form .facebook-btn{
+    background-color: #3c5b96;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 30px;
+    border-radius: 30px;
+    border: none;
+}
+
+.login-sec .login-form .google-btn{
+    background-color: #4285f4;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 30px;
+    border-radius: 30px;
+    border: none;
+    text-transform: uppercase;
+}
+/* Login Page End */

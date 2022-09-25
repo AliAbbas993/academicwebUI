@@ -63,7 +63,7 @@
                                             <a class="nav-link" href="teams.php">Teams</a>
                                         </li>                            
                                         <li class="nav-item">
-                                            <button class="btn-blue">Login</button>
+                                            <a class="btn-blue" href="login.php">Login</a>
                                         </li>
                                     </ul>
                                 </div>

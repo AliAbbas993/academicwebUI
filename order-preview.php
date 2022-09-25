@@ -13,8 +13,8 @@
         <div class="row">
             <div class="col-md-8">
                 <div class="thank-you p-5 mb-5">
-                    <img src="" alt="">
-                    <div>
+                    <img src="./assets/media/gift.png" alt="">
+                    <div class="mt-2">
                         <h3>THANK YOU</h3>
                         <p class="text-center">For your order</p>
                     </div>
@@ -122,12 +122,21 @@
                     <div class="payment-methods">
                         <p class="blue-para p-2 m-0">Last Updated On 24-sep-21</p>
                         <p class="yellow-para p-2 m-0">We accept</p>
-                        <div class="d-flex justify-content-center">
+                        <div class="d-flex flex-wrap justify-content-center align-items-center">
                             <span>
                                 <img src="./assets/media/visa.png" alt="">
                             </span>
                             <span>
-                                <img src="./assets/media/master-card.png" alt="">
+                                <img src="./assets/media/visa.png" alt="">
+                            </span>
+                            <span>
+                                <img src="./assets/media/visa.png" alt="">
+                            </span>
+                            <span>
+                                <img src="./assets/media/visa.png" alt="">
+                            </span>
+                            <span>
+                                <img src="./assets/media/visa.png" alt="">
                             </span>
                         </div>
                         <p class="yellow-para p-2 m-0">Our guarantee</p>
